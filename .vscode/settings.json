@@ -1,0 +1,65 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.cSpell": "explicit"
+  },
+  "asciidoc.preview.style": "styles/preview.css",
+  "files.associations": {
+    "*.adoc": "asciidoc"
+  },
+  "files.eol": "\n",
+  "[yaml]": {
+    "files.eol": "\n"
+  },
+  "[shellscript]": {
+    "files.eol": "\n"
+  },
+  "[asciidoc]": {
+    "files.eol": "\n"
+  },
+  "files.encoding": "utf8",
+
+  "makefile.configureOnOpen": false,
+
+  "cSpell.language": "de,de-DE,en",
+  "cSpell.dictionaries": ["de_DE", "en"],
+  "cSpell.enabled": true,
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.renderWhitespace": "all",
+  },
+  "markdownlint.config": {
+    "default": true,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
+  },
+  "markdown-pdf.puppeteerLaunchOptions": {
+    "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+  },
+  "markdown-pdf.note": "Tastenkombi 'Ctrl+Alt+P' startet WSL-Build → PDF",
+  "cSpell.words": [
+    "Betriebsystem",
+    "Buildchain",
+    "Buildversion",
+    "CLI",
+    "epub",
+    "GitHub",
+    "LaTeX",
+    "Markdown",
+    "newpage",
+    "pandoc",
+    "Pandoc",
+    "Printversion",
+    "Projektinterne",
+    "reintext",
+    "Rust",
+    "Skotarczak",
+    "Texlive",
+    "UTF"
+  ]
+}

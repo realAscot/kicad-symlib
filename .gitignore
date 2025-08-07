@@ -1,0 +1,66 @@
+# .gitignore für: Standart PLC Programmierung mit CODESYS
+# Hier fuer Projekt: Umbau 1000T Presse Fa. Lorenz Industrietechnik GmbH
+#
+# (C) 2024-2025 - Adam Skotarczak (adam@skotarczak.net)
+#
+
+# LibreOffice
+.~lock.*
+
+# Betriebssystemspezifische Dateien (Windows)
+Thumbs.db
+*.lnk
+
+# Betriebssystemspezifische Dateien (Linux/Unix)
+*.swp
+*.swo
+*~
+
+# Generelle temporäre Dateien
+*.bak
+*.tmp
+*.temp
+*.~*
+
+# IDE- und Debug-Artefakte
+*.trc
+*.trace
+
+# Andere OS-spezifische Dateien
+.DS_Store
+
+# CoDeSys generierte Arbeitsverzeichnisse
+output/
+temp/
+
+# Custom
+Dokumentation/Work/**
+#.vscode
+*Kopie.qet
+*.log
+
+# KiCAD
+~*
+*#*
+_autosave*
+
+# Temporäre Dateien
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+
+*auto_saved_files#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck

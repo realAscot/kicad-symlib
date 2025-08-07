@@ -1,0 +1,23 @@
+*.adoc     text eol=lf
+*.yml      text eol=lf
+*.sh       text eol=lf
+Makefile   text eol=lf
+*.qet binary
+*.qet merge=ours
+*.titleblock binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.svg      binary
+*.ico      binary
+*.pdf      binary
+*.zip      binary
+*.tar      binary
+*.gz       binary
+*.tgz      binary
+*.bz2      binary
+
+*.kicad_sym merge=ours
+*.kicad_sch merge=ours
+*.kicad_pcb merge=ours
