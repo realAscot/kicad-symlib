@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name MyCustomLib)
+       (type KiCad)
+       (uri https://raw.githubusercontent.com/MeinUser/my-kicad-symbols/main/MyCustomLib.kicad_sym)
+       (options "")
+       (descr "Eigene Symbolbibliothek von GitHub"))
+)

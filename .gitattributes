@@ -18,6 +18,6 @@ Makefile   text eol=lf
 *.tgz      binary
 *.bz2      binary
 
-*.kicad_sym merge=ours
-*.kicad_sch merge=ours
-*.kicad_pcb merge=ours
+#*.kicad_sym merge=ours
+#*.kicad_sch merge=ours
+#*.kicad_pcb merge=ours
