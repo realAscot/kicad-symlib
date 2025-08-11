@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "Ethernet_Switch-8Port"
+	(symbol "Ethernet_Switch-8Port_(A)"
 		(pin_numbers
 			(hide yes)
 		)
@@ -13,7 +13,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-A"
-			(at -28.702 7.874 0)
+			(at -25.654 9.652 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Ethernet_Switch-8Port_0_1"
+		(symbol "Ethernet_Switch-8Port_(A)_0_1"
 			(rectangle
 				(start -31.4325 17.1449)
 				(end 31.4325 -18.4149)
@@ -296,7 +296,7 @@
 				)
 			)
 		)
-		(symbol "Ethernet_Switch-8Port_1_1"
+		(symbol "Ethernet_Switch-8Port_(A)_1_1"
 			(text "X1"
 				(at -26.67 -11.43 0)
 				(effects
@@ -596,6 +596,253 @@
 					)
 				)
 				(number "X8-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Temposonics_(U)"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-U"
+			(at -21.844 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Temposonics_(U)_0_1"
+			(rectangle
+				(start -17.6212 8.5724)
+				(end 17.6213 -8.2549)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15.748 -3.175)
+				(end -10.033 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.843 -6.985) (xy -13.843 -6.35) (xy -15.113 -6.35) (xy -15.113 -3.81) (xy -10.668 -3.81)
+					(xy -10.668 -6.35) (xy -11.303 -6.35) (xy -11.938 -6.35) (xy -11.938 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -8.128 -3.175)
+				(end -2.413 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.223 -6.985) (xy -6.223 -6.35) (xy -7.493 -6.35) (xy -7.493 -3.81) (xy -3.048 -3.81) (xy -3.048 -6.35)
+					(xy -3.683 -6.35) (xy -4.318 -6.35) (xy -4.318 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Temposonics_(U)_1_1"
+			(text "X1-M12"
+				(at -12.7 -1.905 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "X2-M12"
+				(at -5.08 -1.905 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "TEMPOSONICS R-SERIES V"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "+24V DC"
+				(at 7.62 -6.096 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "0V"
+				(at 10.16 -7.112 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -12.7 90)
+				(length 4.318)
+				(name "X1-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X1-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -12.7 90)
+				(length 4.318)
+				(name "X2-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X2-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 -10.795 90)
+				(length 2.54)
+				(name "PW1+"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "PW1+"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -10.795 90)
+				(length 2.54)
+				(name "PW1-"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "PW1-"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -10.795 90)
+				(length 2.54)
+				(name "PE"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "PE"
 					(effects
 						(font
 							(size 0.508 0.508)
