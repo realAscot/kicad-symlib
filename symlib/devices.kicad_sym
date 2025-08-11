@@ -1,0 +1,609 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "Ethernet_Switch-8Port"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-A"
+			(at -28.702 7.874 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Ethernet_Switch-8Port_0_1"
+			(rectangle
+				(start -31.4325 17.1449)
+				(end 31.4325 -18.4149)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -29.718 -12.7)
+				(end -24.003 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -27.813 -16.51) (xy -27.813 -15.875) (xy -29.083 -15.875) (xy -29.083 -13.335) (xy -24.638 -13.335)
+					(xy -24.638 -15.875) (xy -25.273 -15.875) (xy -25.908 -15.875) (xy -25.908 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -22.098 -12.7)
+				(end -16.383 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20.193 -16.51) (xy -20.193 -15.875) (xy -21.463 -15.875) (xy -21.463 -13.335) (xy -17.018 -13.335)
+					(xy -17.018 -15.875) (xy -17.653 -15.875) (xy -18.288 -15.875) (xy -18.288 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -14.478 -12.7)
+				(end -8.763 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.335 17.145) (xy -13.335 13.97) (xy -12.065 13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.573 -16.51) (xy -12.573 -15.875) (xy -13.843 -15.875) (xy -13.843 -13.335) (xy -9.398 -13.335)
+					(xy -9.398 -15.875) (xy -10.033 -15.875) (xy -10.668 -15.875) (xy -10.668 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 13.97) (xy -12.065 12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 13.97) (xy -7.62 13.97) (xy -7.62 17.145)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.858 -12.7)
+				(end -1.143 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.953 -16.51) (xy -4.953 -15.875) (xy -6.223 -15.875) (xy -6.223 -13.335) (xy -1.778 -13.335)
+					(xy -1.778 -15.875) (xy -2.413 -15.875) (xy -3.048 -15.875) (xy -3.048 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.397 -12.7)
+				(end 7.112 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -16.51) (xy 3.302 -15.875) (xy 2.032 -15.875) (xy 2.032 -13.335) (xy 6.477 -13.335) (xy 6.477 -15.875)
+					(xy 5.842 -15.875) (xy 5.207 -15.875) (xy 5.207 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 9.017 -12.7)
+				(end 14.732 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.922 -16.51) (xy 10.922 -15.875) (xy 9.652 -15.875) (xy 9.652 -13.335) (xy 14.097 -13.335)
+					(xy 14.097 -15.875) (xy 13.462 -15.875) (xy 12.827 -15.875) (xy 12.827 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 16.637 -12.7)
+				(end 22.352 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.542 -16.51) (xy 18.542 -15.875) (xy 17.272 -15.875) (xy 17.272 -13.335) (xy 21.717 -13.335)
+					(xy 21.717 -15.875) (xy 21.082 -15.875) (xy 20.447 -15.875) (xy 20.447 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 24.257 -12.7)
+				(end 29.972 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 26.162 -16.51) (xy 26.162 -15.875) (xy 24.892 -15.875) (xy 24.892 -13.335) (xy 29.337 -13.335)
+					(xy 29.337 -15.875) (xy 28.702 -15.875) (xy 28.067 -15.875) (xy 28.067 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Ethernet_Switch-8Port_1_1"
+			(text "X1"
+				(at -26.67 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X2"
+				(at -19.05 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X3\n"
+				(at -11.43 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X4"
+				(at -3.81 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "INDUSTRIAL 8-PORT GIGABIT SWITCH"
+				(at -0.254 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(text "X5"
+				(at 4.445 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X6"
+				(at 12.065 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X7"
+				(at 19.685 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X8"
+				(at 27.305 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 -22.86 90)
+				(length 3.81)
+				(name "X1-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X1-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -24.13 19.685 270)
+				(length 2.54)
+				(name "PW1+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PW1+"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -20.32 19.685 270)
+				(length 2.54)
+				(name "PW1-"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PW1-"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -22.86 90)
+				(length 3.81)
+				(name "X2-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X2-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -11.43 -22.86 90)
+				(length 3.81)
+				(name "X3-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X3-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -22.86 90)
+				(length 3.81)
+				(name "X4-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X4-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -1.27 19.685 270)
+				(length 2.54)
+				(name "PW2+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PW2+"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 19.685 270)
+				(length 2.54)
+				(name "PW2+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PW2+"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -22.86 90)
+				(length 3.81)
+				(name "X5-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X5-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -22.86 90)
+				(length 3.81)
+				(name "X6-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X6-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -22.86 90)
+				(length 3.81)
+				(name "X7-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X7-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 19.685 270)
+				(length 2.54)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -22.86 90)
+				(length 3.81)
+				(name "X8-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X8-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
