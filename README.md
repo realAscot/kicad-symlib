@@ -8,6 +8,7 @@
     - [MyCustomLib – KiCad Symbol Library](#mycustomlib--kicad-symbol-library)
       - [Direkteinbindung in KiCad 9](#direkteinbindung-in-kicad-9)
   - [**Fertiger sym-lib-table-Ausschnitt**](#fertiger-sym-lib-table-ausschnitt)
+  - [Abkürzungen Elektronik](#abkürzungen-elektronik)
   - [License](#license)
 
 ## Informationen
@@ -46,6 +47,42 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
      (uri https://raw.githubusercontent.com/MeinUser/my-kicad-symbols/main/MyCustomLib.kicad_sym)
      (options "")
      (descr "Eigene Symbolbibliothek von GitHub"))
+```
+
+---
+
+## Abkürzungen Elektronik
+
+```plaintext
+| Abkürzung | Bauteil                 | Beschreibung                       |
+|-----------|-------------------------|----------------------------------|
+| R         | Widerstand              | Elektrischer Widerstand           |
+| C         | Kondensator             | Elektrischer Kondensator          |
+| L         | Spule / Induktivität    | Induktive Bauelemente             |
+| D         | Diode                   | Halbleiter-Diode                 |
+| Q         | Transistor (BJT)        | Bipolartransistor                 |
+| M         | MOSFET                  | Metall-Oxid-Halbleiter-FET        |
+| U         | IC (Integrierter Schaltkreis) | Integrierte Schaltung      |
+| J         | Anschluss / Verbindung   | Jumper, Stecker, Verbindung       |
+| F         | Sicherung               | Schmelzsicherung                 |
+| S         | Schalter                | Schalter                        |
+| T         | Transformator           | Elektrischer Transformator        |
+| Z         | Z-Diode / Zener-Diode   | Spannungsstabilisierende Diode    |
+| B         | Batterie                | Stromquelle                      |
+| K         | Relais / Kontakt        | Elektromechanischer Schalter      |
+| G         | Masse / Ground          | Bezugspotential / Masse           |
+| X         | Bauteil, sonstiges      | Allgemeiner Platzhalter           |
+| IC        | Integrierter Schaltkreis| Synonym für U, oft verwendet     |
+| OPT       | Optokoppler             | Optische Kopplungseinheit         |
+| LED       | Leuchtdiode             | Lichtemittierende Diode           |
+| SW        | Schalter (Switch)       | Manuell bedienbarer Schalter      |
+| VR        | Variabler Widerstand    | Potentiometer oder Trimmer        |
+| SCR       | Thyristor               | Steuerbare Halbleiterdiode        |
+| MOS       | MOSFET                  | Metall-Oxid-Halbleiter-FET        |
+| MCU       | Mikrocontroller         | Mikroprozessor mit Peripherie     |
+| SENSOR    | Sensor                  | Sensorisches Bauelement           |
+| REL       | Relais                  | Elektromechanischer Schalter      |
+| BUZ       | Power MOSFET (Bezeichnung häufig verwendet) | Spezielle MOSFET-Familie    |
 ```
 
 ---
