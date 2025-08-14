@@ -11,7 +11,7 @@
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(property "Reference" "-A"
 			(at -25.654 9.652 0)
 			(effects
@@ -53,6 +53,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ort" "="
+			(at -26.67 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "Ethernet_Switch-8Port_(A)_0_1"
@@ -370,8 +378,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -26.67 -22.86 90)
-				(length 3.81)
+				(at -26.67 -22.606 90)
+				(length 4.064)
 				(name "X1-RX-TX"
 					(effects
 						(font
@@ -388,12 +396,12 @@
 				)
 			)
 			(pin unspecified line
-				(at -24.13 19.685 270)
-				(length 2.54)
+				(at -24.13 20.32 270)
+				(length 3.048)
 				(name "PW1+"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -406,12 +414,12 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 19.685 270)
-				(length 2.54)
+				(at -20.32 20.32 270)
+				(length 3.048)
 				(name "PW1-"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -424,8 +432,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -22.86 90)
-				(length 3.81)
+				(at -19.05 -22.606 90)
+				(length 4.064)
 				(name "X2-RX-TX"
 					(effects
 						(font
@@ -442,8 +450,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -22.86 90)
-				(length 3.81)
+				(at -11.43 -22.606 90)
+				(length 4.064)
 				(name "X3-RX-TX"
 					(effects
 						(font
@@ -460,8 +468,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 -22.86 90)
-				(length 3.81)
+				(at -3.81 -22.606 90)
+				(length 4.064)
 				(name "X4-RX-TX"
 					(effects
 						(font
@@ -478,12 +486,12 @@
 				)
 			)
 			(pin unspecified line
-				(at -1.27 19.685 270)
-				(length 2.54)
+				(at -1.27 20.32 270)
+				(length 3.048)
 				(name "PW2+"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -496,12 +504,12 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 19.685 270)
-				(length 2.54)
+				(at 3.81 20.32 270)
+				(length 3.048)
 				(name "PW2+"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -514,8 +522,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -22.86 90)
-				(length 3.81)
+				(at 3.81 -22.606 90)
+				(length 4.064)
 				(name "X5-RX-TX"
 					(effects
 						(font
@@ -532,8 +540,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -22.86 90)
-				(length 3.81)
+				(at 11.43 -22.606 90)
+				(length 4.064)
 				(name "X6-RX-TX"
 					(effects
 						(font
@@ -550,8 +558,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -22.86 90)
-				(length 3.81)
+				(at 19.05 -22.606 90)
+				(length 4.064)
 				(name "X7-RX-TX"
 					(effects
 						(font
@@ -568,12 +576,12 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 19.685 270)
-				(length 2.54)
+				(at 26.67 20.32 270)
+				(length 3.048)
 				(name "PE"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -586,8 +594,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -22.86 90)
-				(length 3.81)
+				(at 26.67 -22.606 90)
+				(length 4.064)
 				(name "X8-RX-TX"
 					(effects
 						(font
@@ -596,6 +604,785 @@
 					)
 				)
 				(number "X8-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PLC_AI8_(A)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "-A"
+			(at -10.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PLC_AI8_(A)_0_1"
+			(rectangle
+				(start -12.065 50.038)
+				(end 13.335 -29.21)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.938 27.686) (xy 13.208 27.686)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -0.635) (xy 13.335 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -10.16) (xy 13.335 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -19.685) (xy 13.335 -19.685)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -29.21) (xy -6.985 8.89) (xy 13.335 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -29.21) (xy -4.445 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -29.21) (xy -1.905 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -29.21) (xy 0.635 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 -29.21) (xy 3.175 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 -29.21) (xy 5.715 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 -29.21) (xy 8.255 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 -29.21) (xy 10.795 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PLC_AI8_(A)_1_1"
+			(rectangle
+				(start -9.525 -1.905)
+				(end -8.255 -3.175)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -9.525 -3.81)
+				(end -8.255 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -9.525 -5.715)
+				(end -8.255 -6.985)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -9.525 -7.62)
+				(end -8.255 -8.89)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -10.16) (xy -12.065 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -19.685) (xy -12.065 -19.685)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 16.51)
+				(end -5.08 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -6.35 14.605)
+				(end -5.08 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -6.35 12.7)
+				(end -5.08 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -6.35 10.795)
+				(end -5.08 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 16.51)
+				(end -2.54 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 14.605)
+				(end -2.54 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 12.7)
+				(end -2.54 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 10.795)
+				(end -2.54 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 16.51)
+				(end 0 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 14.605)
+				(end 0 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 12.7)
+				(end 0 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 10.795)
+				(end 0 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 16.51)
+				(end 2.54 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 14.605)
+				(end 2.54 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 12.7)
+				(end 2.54 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 10.795)
+				(end 2.54 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 3.81 16.51)
+				(end 5.08 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 3.81 14.605)
+				(end 5.08 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 3.81 12.7)
+				(end 5.08 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 3.81 10.795)
+				(end 5.08 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 6.35 16.51)
+				(end 7.62 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 6.35 14.605)
+				(end 7.62 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 6.35 12.7)
+				(end 7.62 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 6.35 10.795)
+				(end 7.62 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 8.89 16.51)
+				(end 10.16 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 8.89 14.605)
+				(end 10.16 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 8.89 12.7)
+				(end 10.16 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 8.89 10.795)
+				(end 10.16 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 11.43 16.51)
+				(end 12.7 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 11.43 14.605)
+				(end 12.7 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 11.43 12.7)
+				(end 12.7 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 11.43 10.795)
+				(end 12.7 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.335 17.145) (xy -12.065 17.145)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "PHOENIX AI8\nCONTACT 2688064"
+				(at -11.176 24.892 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(text "+24V"
+				(at -9.398 -11.176 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(text "0V"
+				(at -8.382 -20.828 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -15.24 0)
+				(length 0.762)
+				(name "+24V_DC"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "+24V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -17.78 0)
+				(length 0.762)
+				(name "+24V_DC"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "+24V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -25.4 0)
+				(length 0.762)
+				(name "0V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "0V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -27.94 0)
+				(length 0.762)
+				(name "0V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "0V"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -1097,7 +1884,7 @@
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(property "Reference" "-A"
@@ -1798,7 +2585,7 @@
 					(type none)
 				)
 			)
-			(text "PHOENIX DI32/1\nCONTACT"
+			(text "PHOENIX DI32/1\nCONTACT 2688035"
 				(at -11.176 24.892 0)
 				(effects
 					(font
@@ -1907,7 +2694,7 @@
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(property "Reference" "-A"
 			(at -10.16 52.07 0)
 			(effects
@@ -2577,11 +3364,559 @@
 					(type none)
 				)
 			)
-			(text "PHOENIX DO32/1\nCONTACT"
+			(text "PHOENIX DO32/1\nCONTACT 2688051"
 				(at -11.176 24.892 0)
 				(effects
 					(font
 						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(text "+24V"
+				(at -9.398 -11.176 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(text "0V"
+				(at -8.382 -20.828 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -15.24 0)
+				(length 0.762)
+				(name "+24V_DC"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "+24V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -17.78 0)
+				(length 0.762)
+				(name "+24V_DC"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "+24V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -25.4 0)
+				(length 0.762)
+				(name "0V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "0V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -27.94 0)
+				(length 0.762)
+				(name "0V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "0V"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PLC_RTD4_1H_(A)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "-A"
+			(at -10.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verwendung" "Temperaturmessung (O)"
+			(at -4.318 29.21 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(symbol "PLC_RTD4_1H_(A)_0_1"
+			(rectangle
+				(start -12.065 50.038)
+				(end 3.302 -29.21)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.938 27.686) (xy 3.2264 27.6823)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -0.635) (xy 3.175 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -10.16) (xy 3.175 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -19.685) (xy 3.175 -19.685)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -29.21) (xy -6.985 8.89) (xy 3.302 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -29.21) (xy -4.445 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -29.21) (xy -1.905 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -29.21) (xy 0.635 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PLC_RTD4_1H_(A)_1_1"
+			(rectangle
+				(start -9.525 -1.905)
+				(end -8.255 -3.175)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -9.525 -3.81)
+				(end -8.255 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -9.525 -5.715)
+				(end -8.255 -6.985)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -9.525 -7.62)
+				(end -8.255 -8.89)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -10.16) (xy -12.065 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -19.685) (xy -12.065 -19.685)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 16.51)
+				(end -5.08 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -6.35 14.605)
+				(end -5.08 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -6.35 12.7)
+				(end -5.08 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -6.35 10.795)
+				(end -5.08 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 16.51)
+				(end -2.54 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 14.605)
+				(end -2.54 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 12.7)
+				(end -2.54 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -3.81 10.795)
+				(end -2.54 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 16.51)
+				(end 0 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 14.605)
+				(end 0 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 12.7)
+				(end 0 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start -1.27 10.795)
+				(end 0 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 16.51)
+				(end 2.54 15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 14.605)
+				(end 2.54 13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 12.7)
+				(end 2.54 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(rectangle
+				(start 1.27 10.795)
+				(end 2.54 9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 17.145) (xy -12.065 17.145)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "PHOENIX AI8\nCONTACT 2688064"
+				(at -11.176 24.892 0)
+				(effects
+					(font
+						(size 1.016 1.016)
 					)
 					(justify left)
 				)
