@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "STD")(type "KiCad")(uri "${KIPRJMOD}/plc_standart.kicad_sym")(options "")(descr "Standart"))
-)

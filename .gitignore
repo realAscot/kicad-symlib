@@ -38,6 +38,7 @@ Dokumentation/Work/**
 #.vscode
 *Kopie.qet
 *.log
+desktop.ini
 
 # KiCAD
 ~*
