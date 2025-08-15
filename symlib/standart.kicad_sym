@@ -6219,6 +6219,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "Ventil_(Y)"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6258,13 +6261,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Elektromagnetisches Ventil für Hydraulik und Pneumatik"
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Ventil_(Y)_0_1"
@@ -6350,38 +6352,38 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 3.556 270)
 				(length 1.016)
-				(name ""
+				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 -3.81 90)
 				(length 1.016)
-				(name ""
+				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.508 0.508)
 						)
 					)
 				)
