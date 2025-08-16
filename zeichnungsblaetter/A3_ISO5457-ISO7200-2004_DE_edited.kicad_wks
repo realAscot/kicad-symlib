@@ -347,83 +347,38 @@
 		)
 	)
 	(line
-		(name "segm19:Line")
-		(start 276.9402 94.746 rtcorner)
-		(end 281.9402 94.746 rtcorner)
-		(linewidth 0.35)
-	)
-	(line
-		(name "segm20:Line")
-		(start 276.9402 144.746 rtcorner)
-		(end 281.9402 144.746 rtcorner)
-		(linewidth 0.35)
-	)
-	(line
-		(name "segm18:Line")
-		(start 276.8422 44.864 rtcorner)
-		(end 281.6682 44.864 rtcorner)
-		(linewidth 0.35)
-	)
-	(tbtext "A"
-		(name "text8:Text")
-		(pos 279.694 19.746 rtcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(tbtext "B"
-		(name "text9:Text")
-		(pos 279.694 69.746 rtcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(tbtext "C"
-		(name "text10:Text")
-		(pos 279.694 119.746 rtcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(line
 		(name "segm5:Line")
-		(start 31.162 -4.88 ltcorner)
-		(end 31.162 0.12 ltcorner)
+		(start 35.626 -4.92 ltcorner)
+		(end 35.626 -0.094 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm8:Line")
-		(start 181.162 -4.88 ltcorner)
-		(end 181.162 0.12 ltcorner)
+		(start 185.734 -4.88 ltcorner)
+		(end 185.734 0.12 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm7:Line")
-		(start 131.162 -4.88 ltcorner)
-		(end 131.162 0.12 ltcorner)
+		(start 135.702 -4.92 ltcorner)
+		(end 135.702 -0.094 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm9:Line")
-		(start 231.162 -4.88 ltcorner)
-		(end 231.162 0.12 ltcorner)
+		(start 235.734 -4.88 ltcorner)
+		(end 235.734 0.12 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm6:Line")
-		(start 81.162 -4.88 ltcorner)
-		(end 81.162 0.12 ltcorner)
+		(start 85.664 -4.92 ltcorner)
+		(end 85.664 -0.094 ltcorner)
 		(linewidth 0.35)
 	)
 	(tbtext "3"
 		(name "text3:Text")
-		(pos 106.162 -2.38 ltcorner)
+		(pos 110.734 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
 			(size 2.54 2.54)
@@ -432,7 +387,7 @@
 	)
 	(tbtext "2"
 		(name "text2:Text")
-		(pos 56.162 -2.38 ltcorner)
+		(pos 60.734 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
 			(size 2.54 2.54)
@@ -441,25 +396,16 @@
 	)
 	(tbtext "4"
 		(name "text4:Text")
-		(pos 156.162 -2.38 ltcorner)
+		(pos 160.734 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
 			(size 2.54 2.54)
 		)
 		(justify center)
 	)
-	(tbtext "6"
-		(name "text6:Text")
-		(pos 274.704 -2.38 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 3.5 3.5)
-		)
-		(justify center)
-	)
 	(tbtext "1"
 		(name "text1:Text")
-		(pos 6.162 -2.38 ltcorner)
+		(pos 10.734 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
 			(size 2.54 2.54)
@@ -468,82 +414,7 @@
 	)
 	(tbtext "5"
 		(name "text5:Text")
-		(pos 206.162 -2.38 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(line
-		(name "segm7:Line")
-		(start 131.384 190.152 ltcorner)
-		(end 131.384 194.978 ltcorner)
-		(linewidth 0.35)
-	)
-	(line
-		(name "segm9:Line")
-		(start 231.46 190.152 ltcorner)
-		(end 231.46 194.978 ltcorner)
-		(linewidth 0.35)
-	)
-	(line
-		(name "segm8:Line")
-		(start 181.416 190.192 ltcorner)
-		(end 181.422 194.978 ltcorner)
-		(linewidth 0.35)
-	)
-	(line
-		(name "segm6:Line")
-		(start 81.346 190.152 ltcorner)
-		(end 81.346 194.978 ltcorner)
-		(linewidth 0.35)
-	)
-	(line
-		(name "segm5:Line")
-		(start 31.308 190.152 ltcorner)
-		(end 31.308 194.978 ltcorner)
-		(linewidth 0.35)
-	)
-	(tbtext "1"
-		(name "text1:Text")
-		(pos 6.416 192.946 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(tbtext "4"
-		(name "text4:Text")
-		(pos 156.416 192.946 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(tbtext "2"
-		(name "text2:Text")
-		(pos 56.416 192.946 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(tbtext "3"
-		(name "text3:Text")
-		(pos 106.416 192.946 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(tbtext "5"
-		(name "text5:Text")
-		(pos 206.416 192.946 ltcorner)
+		(pos 210.734 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
 			(size 2.54 2.54)
@@ -627,7 +498,7 @@
 	)
 	(tbtext "(KiCAD Version: ${KICAD_VERSION})"
 		(name "")
-		(pos 274.5562 -7.7648)
+		(pos 395.46 -7.7648)
 		(font
 			(size 1.27 1.27)
 		)
@@ -641,27 +512,9 @@
 		)
 		(justify top)
 	)
-	(tbtext "D"
-		(name "text11:Text")
-		(pos 279.3822 169.832 rtcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
 	(tbtext "6"
 		(name "text5:Text")
-		(pos 256.86 -2.634 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 2.54 2.54)
-		)
-		(justify center)
-	)
-	(tbtext "6"
-		(name "text5:Text")
-		(pos 256.86 192.692 ltcorner)
+		(pos 261.432 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
 			(size 2.54 2.54)
@@ -682,5 +535,377 @@
 		(start 181.084 -12.591)
 		(end 71.102 -27.323)
 		(option page1only)
+	)
+	(line
+		(name "segm9:Line")
+		(start 286.832 -4.92 ltcorner)
+		(end 286.832 -0.174 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm9:Line")
+		(start 337.886 -4.92 ltcorner)
+		(end 337.886 -0.348 ltcorner)
+		(linewidth 0.35)
+	)
+	(tbtext "7"
+		(name "text5:Text")
+		(pos 312.232 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "8"
+		(name "text5:Text")
+		(pos 365.318 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(line
+		(name "segm20:Line")
+		(start -5.047 195.994 rtcorner)
+		(end -0.047 195.994 rtcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm20:Line")
+		(start -4.793 246.286 rtcorner)
+		(end 0.033 246.286 rtcorner)
+		(linewidth 0.35)
+	)
+	(tbtext "E"
+		(name "text11:Text")
+		(pos -2.507 222.664 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "F"
+		(name "text11:Text")
+		(pos -2.253 265.082 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "A"
+		(name "text8:Text")
+		(pos 402.376 20 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(line
+		(name "segm20:Line")
+		(start 400.083 144.94 rtcorner)
+		(end 404.655 144.94 rtcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm18:Line")
+		(start 399.829 45.118 rtcorner)
+		(end 404.909 45.118 rtcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm19:Line")
+		(start 400.083 94.902 rtcorner)
+		(end 404.655 94.902 rtcorner)
+		(linewidth 0.35)
+	)
+	(tbtext "D"
+		(name "text11:Text")
+		(pos 402.376 170 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(line
+		(name "segm20:Line")
+		(start 399.829 195.994 rtcorner)
+		(end 404.655 195.994 rtcorner)
+		(linewidth 0.35)
+	)
+	(tbtext "C"
+		(name "text10:Text")
+		(pos 402.376 120 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(line
+		(name "segm20:Line")
+		(start 399.829 246.286 rtcorner)
+		(end 404.655 246.286 rtcorner)
+		(linewidth 0.35)
+	)
+	(tbtext "F"
+		(name "text11:Text")
+		(pos 402.369 265.082 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "B"
+		(name "text9:Text")
+		(pos 402.376 70 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "E"
+		(name "text11:Text")
+		(pos 402.369 222.664 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(line
+		(name "segm8:Line")
+		(start 185.734 -4.88 ltcorner)
+		(end 185.734 0.12 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm5:Line")
+		(start 35.626 -4.92 ltcorner)
+		(end 35.626 -0.094 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm6:Line")
+		(start 85.664 -4.92 ltcorner)
+		(end 85.664 -0.094 ltcorner)
+		(linewidth 0.35)
+	)
+	(tbtext "6"
+		(name "text5:Text")
+		(pos 261.432 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "8"
+		(name "text5:Text")
+		(pos 365.318 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "7"
+		(name "text5:Text")
+		(pos 312.232 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "2"
+		(name "text2:Text")
+		(pos 60.734 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "4"
+		(name "text4:Text")
+		(pos 160.734 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "3"
+		(name "text3:Text")
+		(pos 110.734 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "1"
+		(name "text1:Text")
+		(pos 10.734 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "5"
+		(name "text5:Text")
+		(pos 210.734 -2.38 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(line
+		(name "segm9:Line")
+		(start 286.832 -4.92 ltcorner)
+		(end 286.832 -0.174 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm9:Line")
+		(start 235.734 -4.88 ltcorner)
+		(end 235.734 0.12 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm7:Line")
+		(start 135.702 -4.92 ltcorner)
+		(end 135.702 -0.094 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm9:Line")
+		(start 337.886 -4.92 ltcorner)
+		(end 337.886 -0.348 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm8:Line")
+		(start 185.988 277.314 ltcorner)
+		(end 185.994 281.846 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm5:Line")
+		(start 35.88 277.274 ltcorner)
+		(end 35.88 281.846 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm6:Line")
+		(start 85.918 277.274 ltcorner)
+		(end 85.918 281.846 ltcorner)
+		(linewidth 0.35)
+	)
+	(tbtext "6"
+		(name "text5:Text")
+		(pos 261.686 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "8"
+		(name "text5:Text")
+		(pos 365.572 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "7"
+		(name "text5:Text")
+		(pos 312.486 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "2"
+		(name "text2:Text")
+		(pos 60.988 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "4"
+		(name "text4:Text")
+		(pos 160.988 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "3"
+		(name "text3:Text")
+		(pos 110.988 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "1"
+		(name "text1:Text")
+		(pos 10.988 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "5"
+		(name "text5:Text")
+		(pos 210.988 279.814 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(line
+		(name "segm9:Line")
+		(start 287.086 277.274 ltcorner)
+		(end 287.086 281.846 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm9:Line")
+		(start 236.032 277.274 ltcorner)
+		(end 236.032 281.846 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm7:Line")
+		(start 135.956 277.274 ltcorner)
+		(end 135.956 281.846 ltcorner)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm9:Line")
+		(start 338.14 277.274 ltcorner)
+		(end 338.14 281.846 ltcorner)
+		(linewidth 0.35)
 	)
 )
