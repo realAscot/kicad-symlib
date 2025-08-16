@@ -13,15 +13,15 @@
 	)
 	(rect
 		(name "rect1:Rect")
-		(start -5 -5 ltcorner)
-		(end -5 -5)
+		(start -14.92 -5 ltcorner)
+		(end -4.9998 -4.9708)
 		(linewidth 0.35)
 	)
 	(rect
 		(name "rect2:Rect")
-		(start 0 0 ltcorner)
-		(end 0 0)
-		(linewidth 0.7)
+		(start -9.84 0 ltcorner)
+		(end 0 -0.145)
+		(linewidth 0.457)
 	)
 	(line
 		(name "segm18:Line")
@@ -46,7 +46,7 @@
 		(pos -2.5 20 rtcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.5)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
@@ -55,7 +55,7 @@
 		(pos -2.5 70 rtcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.5)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
@@ -64,7 +64,7 @@
 		(pos -2.5 120 rtcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
@@ -73,7 +73,7 @@
 		(pos -2.5 170 rtcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
@@ -114,9 +114,9 @@
 	)
 	(rect
 		(name "rect3:Rect")
-		(start 0 0)
-		(end 180 36)
-		(linewidth 0.7)
+		(start 0.0002 -0.1448)
+		(end 180.0682 36.0002)
+		(linewidth 0.457)
 	)
 	(line
 		(name "segm21:Line")
@@ -162,8 +162,8 @@
 	)
 	(line
 		(name "segm29:Line")
-		(start 42 9)
-		(end 42 0)
+		(start 41.4922 9.0002)
+		(end 41.4922 0.0002)
 		(linewidth 0.35)
 	)
 	(line
@@ -172,66 +172,63 @@
 		(end 18 0)
 		(linewidth 0.35)
 	)
-	(tbtext "3. Titel, zusätzlicher Titel"
+	(tbtext "3. Untertitel, zusätzlicher Titel"
 		(name "text18:Text")
 		(pos 105 15.492)
 		(font
 			(linewidth 0.18)
-			(size 1.981 1.981)
+			(size 1.778 1.778)
 		)
 	)
-	(tbtext "Änd."
+	(tbtext "Änd.:"
 		(name "text19:Text")
-		(pos 50.5082 6.4922)
+		(pos 50.508 6.746)
 		(font
 			(linewidth 0.18)
-			(size 2 2)
+			(size 1.778 1.778)
 		)
 	)
-	(tbtext "Ausgabedatum"
+	(tbtext "Ausgabedatum:"
 		(name "text20:Text")
-		(pos 41.2542 6.4922)
+		(pos 40.2382 7.0002)
 		(font
 			(linewidth 0.18)
-			(size 2 2)
+			(size 1.778 1.778)
 		)
 	)
-	(tbtext "Blatt"
+	(tbtext "Blatt:"
 		(name "text22:Text")
-		(pos 17.3822 6.4922)
+		(pos 17.3822 7.0002)
 		(font
 			(linewidth 0.18)
-			(size 2 2)
+			(size 1.778 1.778)
 		)
 	)
 	(tbtext "${COMPANY}"
 		(name "text23:Text")
-		(pos 143.5082 22.3902)
+		(pos 177.6712 21.8822)
 		(font
 			(linewidth 0.35)
-			(size 2.3 2.3)
-		)
-		(justify center)
+			(size 2.3 2.3) italic)
+		(justify top)
 	)
 	(tbtext "${COMMENT2}"
 		(name "text24:Text")
-		(pos 101.9522 22.0162)
-		(font
-			(linewidth 0.35)
-			(size 2.3 2.3)
-		)
-	)
-	(tbtext "${TITLE}"
-		(name "text25:Text")
-		(pos 144.032 12.5722)
+		(pos 101.9522 20.7462)
 		(font
 			(linewidth 0.35)
 			(size 2.3 2.3) bold)
-		(justify center)
+	)
+	(tbtext "${TITLE}"
+		(name "text25:Text")
+		(pos 177.4332 29.7172)
+		(font
+			(linewidth 0.35)
+			(size 2.3 2.3) bold)
 	)
 	(tbtext "${COMMENT3}"
 		(name "text26:Text")
-		(pos 101.0542 11.0942)
+		(pos 102.1972 11.7292)
 		(font
 			(linewidth 0.35)
 			(size 2.3 2.3)
@@ -239,11 +236,11 @@
 	)
 	(tbtext "${COMMENT1}"
 		(name "text27:Text")
-		(pos 176.8842 29.5022)
+		(pos 142.4672 7.9122)
 		(font
 			(linewidth 0.35)
-			(size 2.3 2.3)
-		)
+			(size 2.3 2.3) bold)
+		(justify center)
 	)
 	(tbtext "${REVISION}"
 		(name "text28:Text")
@@ -263,9 +260,9 @@
 		)
 		(justify center)
 	)
-	(tbtext "${COMMENT4}"
+	(tbtext "${COMMENT8}"
 		(name "text30:Text")
-		(pos 25.176 13.1602)
+		(pos 25.176 13.16)
 		(font
 			(linewidth 0.35)
 			(size 2.3 2.3)
@@ -287,9 +284,9 @@
 		(end 180.0682 17.8892)
 		(linewidth 0.35)
 	)
-	(tbtext "${COMMENT5}"
+	(tbtext "${COMMENT4}"
 		(name "text26:Text")
-		(pos 52.0522 33.3832)
+		(pos 52.052 33.383)
 		(font
 			(linewidth 0.35)
 			(size 1.778 1.778)
@@ -302,9 +299,9 @@
 			(size 1.778 1.778)
 		)
 	)
-	(tbtext "${COMMENT6}"
+	(tbtext "${COMMENT5}"
 		(name "text26:Text")
-		(pos 52.0522 29.5732)
+		(pos 52.052 29.573)
 		(font
 			(linewidth 0.35)
 			(size 1.778 1.778)
@@ -317,20 +314,20 @@
 			(size 1.778 1.778)
 		)
 	)
-	(tbtext "1. Anlage- / Projektbezeichnung:"
+	(tbtext "Anlage- / Projektbezeichnung:"
 		(name "text17:Text")
-		(pos 178.849 33.51)
+		(pos 179.1032 34.0182)
 		(font
 			(linewidth 0.18)
-			(size 1.981 1.981)
+			(size 1.778 1.778)
 		)
 	)
 	(tbtext "7. Dokumentenstatus"
 		(name "text17:Text")
-		(pos 50 25)
+		(pos 50.2542 25.0002)
 		(font
 			(linewidth 0.18)
-			(size 1.981 1.981)
+			(size 1.778 1.778)
 		)
 	)
 	(tbtext "${COMMENT7}"
@@ -341,128 +338,113 @@
 			(size 1.778 1.778)
 		)
 	)
-	(tbtext "${COMMENT8}"
+	(tbtext "${COMMENT6}"
 		(name "text26:Text")
-		(pos 19.8452 31.2242)
+		(pos 24.29 31.224)
 		(font
 			(linewidth 0.35)
 			(size 1.778 1.778)
 		)
 	)
 	(line
-		(name "segm20:Line")
-		(start -4.793 197.01 rtcorner)
-		(end 0.207 197.01 rtcorner)
-		(linewidth 0.35)
-	)
-	(line
 		(name "segm19:Line")
-		(start 267.0342 95.254 rtcorner)
-		(end 272.0342 95.254 rtcorner)
+		(start 276.9402 94.746 rtcorner)
+		(end 281.9402 94.746 rtcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm20:Line")
-		(start 267.0342 145.254 rtcorner)
-		(end 272.0342 145.254 rtcorner)
+		(start 276.9402 144.746 rtcorner)
+		(end 281.9402 144.746 rtcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm18:Line")
-		(start 266.9362 45.372 rtcorner)
-		(end 271.7622 45.372 rtcorner)
+		(start 276.8422 44.864 rtcorner)
+		(end 281.6682 44.864 rtcorner)
 		(linewidth 0.35)
 	)
 	(tbtext "A"
 		(name "text8:Text")
-		(pos 269.7882 20.254 rtcorner)
+		(pos 279.694 19.746 rtcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "B"
 		(name "text9:Text")
-		(pos 269.7882 70.254 rtcorner)
+		(pos 279.694 69.746 rtcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "C"
 		(name "text10:Text")
-		(pos 269.7882 120.254 rtcorner)
+		(pos 279.694 119.746 rtcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
-		)
-		(justify center)
-	)
-	(tbtext "D"
-		(name "text11:Text")
-		(pos 269.7882 170.254 rtcorner)
-		(font
-			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(line
 		(name "segm5:Line")
-		(start 49.704 -4.88 ltcorner)
-		(end 49.704 0.12 ltcorner)
+		(start 31.162 -4.88 ltcorner)
+		(end 31.162 0.12 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm8:Line")
-		(start 199.704 -4.88 ltcorner)
-		(end 199.704 0.12 ltcorner)
+		(start 181.162 -4.88 ltcorner)
+		(end 181.162 0.12 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm7:Line")
-		(start 149.704 -4.88 ltcorner)
-		(end 149.704 0.12 ltcorner)
+		(start 131.162 -4.88 ltcorner)
+		(end 131.162 0.12 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm9:Line")
-		(start 249.704 -4.88 ltcorner)
-		(end 249.704 0.12 ltcorner)
+		(start 231.162 -4.88 ltcorner)
+		(end 231.162 0.12 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm6:Line")
-		(start 99.704 -4.88 ltcorner)
-		(end 99.704 0.12 ltcorner)
+		(start 81.162 -4.88 ltcorner)
+		(end 81.162 0.12 ltcorner)
 		(linewidth 0.35)
 	)
 	(tbtext "3"
 		(name "text3:Text")
-		(pos 124.704 -2.38 ltcorner)
+		(pos 106.162 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "2"
 		(name "text2:Text")
-		(pos 74.704 -2.38 ltcorner)
+		(pos 56.162 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "4"
 		(name "text4:Text")
-		(pos 174.704 -2.38 ltcorner)
+		(pos 156.162 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
@@ -477,132 +459,228 @@
 	)
 	(tbtext "1"
 		(name "text1:Text")
-		(pos 24.704 -2.38 ltcorner)
+		(pos 6.162 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "5"
 		(name "text5:Text")
-		(pos 224.704 -2.38 ltcorner)
+		(pos 206.162 -2.38 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(line
 		(name "segm7:Line")
-		(start 149.926 190.152 ltcorner)
-		(end 149.926 194.978 ltcorner)
+		(start 131.384 190.152 ltcorner)
+		(end 131.384 194.978 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm9:Line")
-		(start 250.002 190.152 ltcorner)
-		(end 250.002 194.978 ltcorner)
+		(start 231.46 190.152 ltcorner)
+		(end 231.46 194.978 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm8:Line")
-		(start 199.958 190.192 ltcorner)
-		(end 199.964 194.978 ltcorner)
+		(start 181.416 190.192 ltcorner)
+		(end 181.422 194.978 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm6:Line")
-		(start 99.888 190.152 ltcorner)
-		(end 99.888 194.978 ltcorner)
+		(start 81.346 190.152 ltcorner)
+		(end 81.346 194.978 ltcorner)
 		(linewidth 0.35)
 	)
 	(line
 		(name "segm5:Line")
-		(start 49.85 190.152 ltcorner)
-		(end 49.85 194.978 ltcorner)
+		(start 31.308 190.152 ltcorner)
+		(end 31.308 194.978 ltcorner)
 		(linewidth 0.35)
 	)
 	(tbtext "1"
 		(name "text1:Text")
-		(pos 24.958 192.946 ltcorner)
+		(pos 6.416 192.946 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "4"
 		(name "text4:Text")
-		(pos 174.958 192.946 ltcorner)
+		(pos 156.416 192.946 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "2"
 		(name "text2:Text")
-		(pos 74.958 192.946 ltcorner)
+		(pos 56.416 192.946 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "3"
 		(name "text3:Text")
-		(pos 124.958 192.946 ltcorner)
+		(pos 106.416 192.946 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
-		)
-		(justify center)
-	)
-	(tbtext "6"
-		(name "text6:Text")
-		(pos 274.958 192.946 ltcorner)
-		(font
-			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
 	(tbtext "5"
 		(name "text5:Text")
-		(pos 224.958 192.946 ltcorner)
+		(pos 206.416 192.946 ltcorner)
 		(font
 			(linewidth 0.35)
-			(size 3.302 3.302)
+			(size 2.54 2.54)
 		)
 		(justify center)
 	)
-	(tbtext "1."
+	(tbtext "2. Frei"
 		(name "")
 		(pos 104.884 25.001)
 		(font
-			(size 1.981 1.981)
+			(size 1.778 1.778)
 		)
 	)
-	(tbtext "5-6."
+	(tbtext "4-5."
 		(name "")
-		(pos 37.3202 33.8912)
+		(pos 36.5582 33.8912)
 		(font
-			(size 1.981 1.981)
+			(size 1.778 1.778)
 		)
 	)
-	(tbtext "5-6."
-		(name "")
-		(pos 37.3202 33.8912)
-		(font
-			(size 1.981 1.981)
-		)
-	)
-	(tbtext "4."
+	(tbtext "8. Frei"
 		(name "")
 		(pos 50.02 15.857)
 		(font
-			(size 1.981 1.981)
+			(size 1.778 1.778)
 		)
+	)
+	(tbtext "Firma/ Verantwortlicher"
+		(name "")
+		(pos 179.1792 25.0012)
+		(font
+			(size 1.778 1.778)
+		)
+	)
+	(tbtext "1. Titel:"
+		(name "")
+		(pos 178.925 15.73)
+		(font
+			(size 1.778 1.778)
+		)
+	)
+	(tbtext "6. Frei"
+		(name "")
+		(pos 28.557 33.891)
+		(font
+			(size 1.778 1.778)
+		)
+	)
+	(tbtext "${FILENAME}"
+		(name "")
+		(pos 101.5822 2.9032)
+	)
+	(tbtext "Format: ${PAPER}"
+		(name "")
+		(pos 73.388 31.317)
+		(font
+			(size 1.905 1.905)
+		)
+		(justify center)
+		(comment "Paper format name")
+	)
+	(line
+		(name "segm26:Line")
+		(start 83.0402 35.9232)
+		(end 83.0402 26.9232)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm22:Line")
+		(start 51.0362 8.9992)
+		(end 105.9002 8.9992)
+		(linewidth 0.35)
+	)
+	(tbtext "Dateiname:"
+		(name "text18:Text")
+		(pos 105.138 6.967)
+		(font
+			(linewidth 0.18)
+			(size 1.778 1.778)
+		)
+	)
+	(tbtext "(KiCAD Version: ${KICAD_VERSION})"
+		(name "")
+		(pos 271.508 -7.511)
+		(font
+			(size 1.27 1.27)
+		)
+	)
+	(tbtext "- Die Zahlen in den Feldern 1. bis 8. entsprechen den Kommentaren in der Seitenvorschau.\n   Menue  -> Datei -> Deite Einstellen\n- Bitte darauf achten das dort auch Format DIN A4 eingestellt wird."
+		(name "")
+		(pos 179.5602 -18.1788)
+		(option page1only)
+		(font
+			(color 255 8 27 1)
+		)
+		(justify top)
+	)
+	(tbtext "D"
+		(name "text11:Text")
+		(pos 279.3822 169.832 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "6"
+		(name "text5:Text")
+		(pos 256.86 -2.634 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "6"
+		(name "text5:Text")
+		(pos 256.86 192.692 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 2.54 2.54)
+		)
+		(justify center)
+	)
+	(tbtext "DIESE INFO LIEGT AUSSERHALB DES DRUCKBEREICHS:"
+		(name "")
+		(pos 179.306 -14.877)
+		(option page1only)
+		(font bold
+			(color 255 8 27 1)
+		)
+		(justify top)
+	)
+	(rect
+		(name "")
+		(start 181.084 -12.591)
+		(end 71.102 -27.323)
+		(option page1only)
 	)
 )

@@ -5681,7 +5681,333 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Steckdose_(X)"
+	(symbol "Steckdose_Stecker_M_(X)"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-X"
+			(at -6.096 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Steckdose_Stecker_M_(X)_0_1"
+			(arc
+				(start -1.905 3.81)
+				(mid -2.54 3.175)
+				(end -3.175 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 3.175) (xy -2.54 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 3.175) (xy -3.175 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.635 3.81)
+				(mid 0 3.175)
+				(end -0.635 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.175) (xy 0 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 3.175) (xy -0.635 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.175 3.81)
+				(mid 2.54 3.175)
+				(end 1.905 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.175) (xy 2.54 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 3.175) (xy 1.905 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Steckdose_Stecker_M_(X)_1_0"
+			(pin unspecified line
+				(at 0 6.35 270)
+				(length 0)
+				(hide yes)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Steckdose_Stecker_M_(X)_1_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 4.445)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 3.302) (xy -2.54 5.842)
+				)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.302) (xy 0 5.842)
+				)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.302) (xy 2.54 5.842)
+				)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 6.35 270)
+				(length 0)
+				(hide yes)
+				(name "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 0 90)
+				(length 2.54)
+				(name "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 90)
+				(length 2.54)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 6.35 270)
+				(length 0)
+				(hide yes)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 0 90)
+				(length 2.54)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Steckdose_W_(X)"
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -5733,7 +6059,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Steckdose_(X)_0_1"
+		(symbol "Steckdose_W_(X)_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0.635) (xy -2.54 1.905)
@@ -5843,7 +6169,7 @@
 				)
 			)
 		)
-		(symbol "Steckdose_(X)_1_1"
+		(symbol "Steckdose_W_(X)_1_1"
 			(rectangle
 				(start -3.81 1.27)
 				(end 3.81 -0.635)
@@ -5855,7 +6181,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin unspecified line
 				(at -2.54 3.81 270)
 				(length 2.54)
 				(name "L"
@@ -5873,7 +6199,26 @@
 					)
 				)
 			)
-			(pin input line
+			(pin unspecified line
+				(at -2.54 0 90)
+				(length 0)
+				(hide yes)
+				(name "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 0 3.81 270)
 				(length 2.54)
 				(name "PE"
@@ -5891,9 +6236,47 @@
 					)
 				)
 			)
-			(pin input line
+			(pin unspecified line
+				(at 0 0 90)
+				(length 0)
+				(hide yes)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 2.54 3.81 270)
 				(length 2.54)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 0 90)
+				(length 0)
+				(hide yes)
 				(name "N"
 					(effects
 						(font
@@ -6267,6 +6650,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Ventil_(Y)_0_1"
