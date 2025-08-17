@@ -1,5 +1,3 @@
-# .gitignore für: KiCAD
-
 # ------------------------------
 # KiCad Projekt .gitignore
 # ------------------------------
@@ -62,59 +60,5 @@ Thumbs.db       # Windows Explorer
 #   *.kicad_mod   -> eigene Footprintlibs
 # ------------------------------
 
-# Archive
+# Backups
 *.zip
-
-# IDEs
-*.vscode
-
-# LibreOffice
-.~lock.*
-
-# Betriebssystemspezifische Dateien (Windows)
-Thumbs.db
-*.lnk
-
-# Betriebssystemspezifische Dateien (Linux/Unix)
-*.swp
-*.swo
-*~
-
-# Generelle temporäre Dateien
-*.bak
-*.tmp
-*.temp
-*.~*
-
-# Custom
-Dokumentation/Work/**
-#.vscode
-*Kopie.qet
-*.log
-desktop.ini
-
-# KiCAD
-~*
-*#*
-_autosave*
-
-# Temporäre Dateien
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
-*~
-~*
-_autosave-*
-
-*auto_saved_files#
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
-~*.lck

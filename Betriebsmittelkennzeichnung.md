@@ -1,6 +1,7 @@
 # Betriebsmittelkennzeichnung in der Elektrotechnik – Alt vs. Neu
 
-> von Adam Skotarczak <adam@Skotarczak.net>
+> von Adam Skotarczak <adam@Skotarczak.net>  
+> Dokument Aktuell in Bearbeitung
 
 ## Inhalt
 

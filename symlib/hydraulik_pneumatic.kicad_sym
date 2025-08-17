@@ -552,6 +552,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "Zylinder_Doppelt_(M)"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)

@@ -1,8 +1,0 @@
-[
-  {
-    "key": "ctrl+alt+p",
-    "command": "workbench.action.tasks.runTask",
-    "args": "Markdown → PDF (Pandoc via WSL)",
-    "when": "editorLangId == markdown"
-  }
-]

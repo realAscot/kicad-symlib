@@ -56,8 +56,6 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
 
 ## Betriebsmittelkennzeichnung Industrie
 
-Du hast recht: **„H = Lampe“** stammt aus älteren/betrieblichen Konventionen (z. B. nach DIN 40719/Herstellerpraxis). **Nach aktueller DIN EN IEC 81346-2:2019 (DIN-Übernahme 2020-10)** gehören **Leuchten/Lampen zur Klasse „E“ (Aussenden)** – oft mit Unterklasse **EA**; **„H“** steht heute für **Behandlung von Stoffen**. ([Wikipedia][1], [Elektropraktiker][2])
-
 ### Kennbuchstaben (A1) nach DIN EN IEC 81346-2 2019 / DIN EN IEC 81346-2 2020-10
 
 | Kennbuchstabe | Verwendung / Funktion (Kurzfassung)                                             | Quelle                                                          |
