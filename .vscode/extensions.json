@@ -6,6 +6,8 @@
     "streetsidesoftware.code-spell-checker-german",
     "davidanson.vscode-markdownlint",
     "yzane.markdown-pdf",
-    "yzhang.markdown-all-in-one"
+    "yzhang.markdown-all-in-one",
+    "sajadghorbani.kicode",
+    "jessejabezarendse.kicanvas-viewer"
   ]
 }

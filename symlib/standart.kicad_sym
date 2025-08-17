@@ -948,7 +948,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "Regler_(S)"
-		(power)
 		(pin_names
 			(hide yes)
 		)
@@ -1086,7 +1085,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-K"
-			(at -7.366 0 0)
+			(at -4.572 5.842 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1127,6 +1126,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "XREF" ""
+			(at -6.604 4.064 0)
+			(show_name)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
 			)
 		)
 		(property "ki_keywords" "K, Relais"
@@ -1202,7 +1210,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-K"
-			(at -4.318 0 0)
+			(at -4.572 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,6 +1244,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "XREF" ""
+			(at -4.318 2.794 0)
+			(show_name)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "ki_keywords" "Relais, NC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1333,7 +1359,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-K"
-			(at -4.318 0 0)
+			(at -4.318 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,6 +1399,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "XREF" ""
+			(at -4.318 2.794 0)
+			(show_name)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
 			)
 		)
 		(symbol "Relais_(K)_NO_0_1"
@@ -6008,13 +6043,14 @@
 		(embedded_fonts no)
 	)
 	(symbol "Steckdose_W_(X)"
+		(power)
 		(pin_names
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(property "Reference" "-X"
 			(at -6.604 3.302 0)
 			(effects
@@ -6023,7 +6059,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Steckdose_W_(X)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6296,8 +6332,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "TCP_(X)"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6462,6 +6502,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "Taster_(S)_NO"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -6602,8 +6645,11 @@
 		(embedded_fonts no)
 	)
 	(symbol "Ventil_(Y)"
-		(pin_names
+		(pin_numbers
 			(hide yes)
+		)
+		(pin_names
+			(offset 0)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6703,14 +6749,14 @@
 			(pin input line
 				(at 0 5.08 270)
 				(length 2.54)
-				(name ""
+				(name "A1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "A1"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -6721,14 +6767,14 @@
 			(pin output line
 				(at 0 -5.08 90)
 				(length 2.54)
-				(name ""
+				(name "A2"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "2"
+				(number "A2"
 					(effects
 						(font
 							(size 0.508 0.508)
