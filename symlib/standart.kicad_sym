@@ -1312,7 +1312,7 @@
 			(pin input line
 				(at 0 5.08 270)
 				(length 3.81)
-				(name "21"
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1330,7 +1330,7 @@
 			(pin output line
 				(at 0 -5.08 90)
 				(length 3.81)
-				(name "22"
+				(name "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1454,6 +1454,7 @@
 						)
 					)
 				)
+				(alternate "1" input line)
 			)
 			(pin output line
 				(at 0 -5.08 90)
