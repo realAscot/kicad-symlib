@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "Batterie_Akku_DC"
+	(symbol "Batterie_Akku_DC_Einpolig"
 		(power)
 		(pin_numbers
 			(hide yes)
@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" "Batterie_Akku_DC"
+		(property "Value" "Batterie_Akku_DC_Einpolig"
 			(at -0.254 -7.112 0)
 			(effects
 				(font
@@ -57,7 +57,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Batterie_Akku_DC_0_1"
+		(symbol "Batterie_Akku_DC_Einpolig_0_1"
 			(polyline
 				(pts
 					(xy -3.81 0) (xy -1.27 0)
@@ -119,7 +119,7 @@
 				)
 			)
 		)
-		(symbol "Batterie_Akku_DC_1_1"
+		(symbol "Batterie_Akku_DC_Einpolig_1_1"
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 1.778)

@@ -151,9 +151,10 @@
 		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "-C"
 			(at -11.684 17.526 0)
@@ -189,8 +190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hydraulikbehälter"
-			(at 0 -31.496 0)
+		(property "Description" "Hydraulikbehälter - Symbolische Darstellung mit Rücklauf"
+			(at 1.524 -32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -218,7 +219,7 @@
 		(symbol "Hydraulikbehaelter_(C)_0_1"
 			(polyline
 				(pts
-					(xy -5.08 16.002) (xy -5.08 0)
+					(xy -7.62 0) (xy 7.62 0)
 				)
 				(stroke
 					(width 0)
@@ -230,19 +231,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 0) (xy -5.08 -16.002)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 0) (xy 4.826 0)
+					(xy -7.62 -15.24) (xy -7.62 15.24)
 				)
 				(stroke
 					(width 0)
@@ -253,21 +242,9 @@
 				)
 			)
 			(arc
-				(start -5.08 16.0036)
-				(mid -0.127 20.955)
-				(end 4.826 16.0036)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 4.826 -16.0036)
-				(mid -0.127 -20.955)
-				(end -5.08 -16.0036)
+				(start -7.62 15.24)
+				(mid 0 22.86)
+				(end 7.62 15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -288,10 +265,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 4.826 0) (xy 4.826 16.002)
-				)
+			(arc
+				(start 7.62 -15.24)
+				(mid 0 -22.86)
+				(end -7.62 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -302,7 +279,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.826 -16.002) (xy 4.826 0)
+					(xy 7.62 15.24) (xy 7.62 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -314,9 +291,27 @@
 			)
 		)
 		(symbol "Hydraulikbehaelter_(C)_1_1"
+			(pin input line
+				(at 0 25.4 270)
+				(length 2.54)
+				(name "Rücklauf"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "Rücklauf"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at 0 -22.86 90)
-				(length 1.778)
+				(at 0 -25.4 90)
+				(length 2.286)
 				(name "1"
 					(effects
 						(font
@@ -380,7 +375,7 @@
 			)
 		)
 		(property "Description" "Rücklaufbehälter"
-			(at 0 -7.62 0)
+			(at -10.922 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +395,7 @@
 		(symbol "Rücklaufbehaelter_(R)_0_1"
 			(polyline
 				(pts
-					(xy -6.604 0) (xy -6.604 -5.842) (xy 6.35 -5.842) (xy 6.35 0)
+					(xy -6.35 0) (xy -6.223 -6.35) (xy 6.731 -6.35) (xy 6.604 0)
 				)
 				(stroke
 					(width 0)
@@ -425,8 +420,8 @@
 		)
 		(symbol "Rücklaufbehaelter_(R)_1_1"
 			(pin input line
-				(at 0 1.27 270)
-				(length 2.286)
+				(at 0 2.54 270)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -441,6 +436,25 @@
 						)
 					)
 				)
+			)
+			(pin output line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "Optional" free line)
 			)
 		)
 		(embedded_fonts no)
