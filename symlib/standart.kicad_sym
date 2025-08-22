@@ -1477,7 +1477,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Relais_(K)_SSR_13-14"
+	(symbol "Relais_(K)_PLC_13-14"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1530,7 +1530,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Relais_(K)_SSR_13-14_0_1"
+		(symbol "Relais_(K)_PLC_13-14_0_1"
 			(polyline
 				(pts
 					(xy -4.445 0.635) (xy -1.905 0.635)
@@ -1604,7 +1604,7 @@
 				)
 			)
 		)
-		(symbol "Relais_(K)_SSR_13-14_1_1"
+		(symbol "Relais_(K)_PLC_13-14_1_1"
 			(polyline
 				(pts
 					(xy -1.905 0.635) (xy -2.6445 0.9803) (xy -2.6459 0.2881) (xy -1.905 0.635)
@@ -1709,7 +1709,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Relais_(K)_SSR_A1-A2"
+	(symbol "Relais_(K)_PLC_A1-A2"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1762,7 +1762,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Relais_(K)_SSR_A1-A2_0_1"
+		(symbol "Relais_(K)_PLC_A1-A2_0_1"
 			(rectangle
 				(start -6.35 2.54)
 				(end 6.35 -2.54)
@@ -1775,7 +1775,7 @@
 				)
 			)
 		)
-		(symbol "Relais_(K)_SSR_A1-A2_1_1"
+		(symbol "Relais_(K)_PLC_A1-A2_1_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635) (xy 1.27 0.635) (xy 0 -0.635) (xy -1.27 0.635)
@@ -1871,7 +1871,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Relais_(K)_SSR_A1-A2+13-14"
+	(symbol "Relais_(K)_PLC_A1-A2+13-14"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1924,7 +1924,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Relais_(K)_SSR_A1-A2+13-14_0_1"
+		(symbol "Relais_(K)_PLC_A1-A2+13-14_0_1"
 			(rectangle
 				(start -6.35 2.54)
 				(end 6.35 -2.54)
@@ -2009,7 +2009,7 @@
 				)
 			)
 		)
-		(symbol "Relais_(K)_SSR_A1-A2+13-14_1_1"
+		(symbol "Relais_(K)_PLC_A1-A2+13-14_1_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635) (xy 1.27 0.635) (xy 0 -0.635) (xy -1.27 0.635)
@@ -2105,7 +2105,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "A1"
@@ -2123,7 +2123,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "A2"
@@ -2141,7 +2141,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 8.89 5.08 270)
 				(length 3.81)
 				(name "13"
@@ -2159,7 +2159,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 11.43 -5.08 90)
 				(length 3.81)
 				(name "14"
@@ -2177,7 +2177,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 13.97 5.08 270)
 				(length 3.81)
 				(name "11"
@@ -2522,6 +2522,936 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SSR_(U)"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-U"
+			(at -29.464 12.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "XREF" ""
+			(at -6.604 4.064 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "K, Relais"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SSR_(U)_0_1"
+			(rectangle
+				(start -33.02 10.16)
+				(end 35.56 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20.32 1.27) (xy -20.32 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20.32 -2.54) (xy -20.32 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 21.59 1.27) (xy 21.59 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 21.59 -2.54) (xy 21.59 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SSR_(U)_1_1"
+			(polyline
+				(pts
+					(xy -17.78 -2.54) (xy -24.13 -2.54) (xy -26.67 1.27) (xy -21.59 1.27) (xy -24.13 -2.54) (xy -26.67 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 1.27) (xy -15.24 1.27) (xy -17.78 -2.54) (xy -12.7 -2.54) (xy -15.24 1.27) (xy -21.59 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy -3.81 -2.54) (xy -6.35 1.27) (xy -1.27 1.27) (xy -3.81 -2.54) (xy -6.35 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 1.27) (xy 5.08 1.27) (xy 2.54 -2.54) (xy 7.62 -2.54) (xy 5.08 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -2.54) (xy 17.78 -2.54) (xy 15.24 1.27) (xy 20.32 1.27) (xy 17.78 -2.54) (xy 15.24 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 29.21 1.27) (xy 26.67 1.27) (xy 24.13 -2.54) (xy 29.21 -2.54) (xy 26.67 1.27) (xy 20.32 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "SIEMENS"
+				(at -26.924 7.874 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(pin passive line
+				(at -36.83 5.08 0)
+				(length 3.81)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 13.97 270)
+				(length 3.81)
+				(name "1L1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1L1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 -15.24 90)
+				(length 3.81)
+				(name "2T1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2T1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 13.97 270)
+				(length 3.81)
+				(name "3L2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3L2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 90)
+				(length 3.81)
+				(name "4T2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4T2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 13.97 270)
+				(length 3.81)
+				(name "5L3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5L3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 -15.24 90)
+				(length 3.81)
+				(name "6T3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6T3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.37 5.08 180)
+				(length 3.81)
+				(name "A1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.37 -6.35 180)
+				(length 3.81)
+				(name "A2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Schalter_(F)_1-6"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-F"
+			(at -13.462 10.922 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "_____ A"
+			(at -13.716 8.636 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "XREF" ""
+			(at -12.446 5.842 0)
+			(show_name)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "ki_keywords" "K, Relais"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Schalter_(F)_1-6_0_1"
+			(polyline
+				(pts
+					(xy -8.382 2.032) (xy -5.842 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.842 3.302) (xy -8.382 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.842 -3.048) (xy -3.302 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.318 3.81) (xy -3.302 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy -7.62 3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy -3.81 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -5.842 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 2.032) (xy 0.508 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 3.302) (xy -2.032 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -3.048) (xy 3.048 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 3.81) (xy 3.048 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.81) (xy 2.54 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy -1.27 3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy 2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -1.778) (xy 0.508 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.318 2.032) (xy 6.858 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.858 3.302) (xy 4.318 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.858 -3.048) (xy 9.398 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.382 3.81) (xy 9.398 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 3.81) (xy 8.89 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -3.81) (xy 5.08 3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -3.81) (xy 8.89 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.398 -1.778) (xy 6.858 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schalter_(F)_1-6_1_1"
+			(polyline
+				(pts
+					(xy -13.208 2.032) (xy -13.208 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -9.144 5.334)
+				(end 13.97 -4.826)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 0.254) (xy -9.652 0.254) (xy -10.414 -1.016) (xy -11.176 0.254) (xy -13.208 0.254)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.254) (xy -4.318 0.254)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.254) (xy 2.032 0.254)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 7.62 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -7.62 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -7.62 90)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 7.62 270)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -7.62 90)
+				(length 2.54)
+				(name "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Schalter_LS_(F)"
 		(pin_numbers
 			(hide yes)
@@ -2542,7 +3472,7 @@
 			)
 		)
 		(property "Value" "A"
-			(at -4.572 0 0)
+			(at -6.604 1.524 0)
 			(do_not_autoplace)
 			(effects
 				(font
