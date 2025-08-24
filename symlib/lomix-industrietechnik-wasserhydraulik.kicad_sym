@@ -104,7 +104,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "A1"
@@ -122,7 +122,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "A2"
