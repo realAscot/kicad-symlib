@@ -8405,7 +8405,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -15.24 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -8423,7 +8423,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -17.78 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -8441,7 +8441,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -25.4 0)
 				(length 0.762)
 				(name "0V"
@@ -8459,7 +8459,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -27.94 0)
 				(length 0.762)
 				(name "0V"
@@ -8908,8 +8908,8 @@
 					(type none)
 				)
 			)
-			(text "PHOENIX AI8\nCONTACT 2688064"
-				(at -11.176 24.892 0)
+			(text "PHOENIX RTD4 1H\nCONTACT 2688556"
+				(at -11.43 24.892 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -8933,7 +8933,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -15.24 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -8951,7 +8951,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -17.78 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -8969,7 +8969,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -25.4 0)
 				(length 0.762)
 				(name "0V"
@@ -8987,7 +8987,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -27.94 0)
 				(length 0.762)
 				(name "0V"
