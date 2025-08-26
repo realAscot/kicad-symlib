@@ -213,7 +213,7 @@
 			)
 		)
 		(symbol "Leuchte_(H)_1_1"
-			(pin unspecified line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.286)
 				(name "1"
@@ -231,7 +231,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.286)
 				(name "2"
@@ -390,7 +390,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 6.35 270)
 				(length 1.778)
 				(name ""
@@ -408,7 +408,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 3.81 6.35 270)
 				(length 1.778)
 				(name ""
@@ -602,7 +602,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 6.35 270)
 				(length 1.778)
 				(name "U"
@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 6.35 270)
 				(length 1.778)
 				(name "V"
@@ -638,7 +638,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 3.81 6.35 270)
 				(length 1.778)
 				(name "W"
@@ -1160,7 +1160,7 @@
 			)
 		)
 		(symbol "Regler_(S)_1_1"
-			(pin input line
+			(pin passive line
 				(at -3.81 5.08 270)
 				(length 2.54)
 				(name "1"
@@ -1178,7 +1178,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 -5.08 90)
 				(length 2.54)
 				(name "3"
@@ -1196,7 +1196,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 3.81 5.08 270)
 				(length 2.54)
 				(name "4"
@@ -1300,7 +1300,7 @@
 			)
 		)
 		(symbol "Relais_(K)_A1-A2_1_1"
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name ""
@@ -1318,7 +1318,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name ""
@@ -1449,7 +1449,7 @@
 			)
 		)
 		(symbol "Relais_(K)_NC_1_1"
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
 				(name "1"
@@ -1467,7 +1467,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "2"
@@ -1577,7 +1577,7 @@
 			)
 		)
 		(symbol "Relais_(K)_NO_1_1"
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
 				(name "3"
@@ -1596,7 +1596,7 @@
 				)
 				(alternate "1" input line)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "4"
@@ -1792,7 +1792,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 5.08 270)
 				(length 3.81)
 				(name "13"
@@ -1810,7 +1810,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "14"
@@ -1828,7 +1828,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 2.54 5.08 270)
 				(length 3.81)
 				(name "11"
@@ -1972,7 +1972,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "A1"
@@ -1990,7 +1990,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "A2"
@@ -2607,14 +2607,14 @@
 			(pin passive line
 				(at 0 6.35 270)
 				(length 2.54)
-				(name "N"
+				(name "L1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "N"
+				(number "L1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2622,7 +2622,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -6.35 90)
 				(length 2.54)
 				(name "PE"
@@ -2643,24 +2643,6 @@
 			(pin passive line
 				(at 3.81 6.35 270)
 				(length 2.54)
-				(name "L1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "L1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 6.35 270)
-				(length 2.54)
 				(name "L2"
 					(effects
 						(font
@@ -2677,7 +2659,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 6.35 270)
+				(at 7.62 6.35 270)
 				(length 2.54)
 				(name "L3"
 					(effects
@@ -2694,6 +2676,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 11.43 6.35 270)
+				(length 2.54)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -2702,7 +2702,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-L"
-			(at -9.906 10.414 0)
+			(at -9.906 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,8 +2892,8 @@
 		)
 		(symbol "SPD_Type3_(L)_1_1"
 			(rectangle
-				(start -6.35 5.715)
-				(end 11.684 -5.715)
+				(start -6.35 4.318)
+				(end 11.176 -4.318)
 				(stroke
 					(width 0)
 					(type dash)
@@ -2903,7 +2903,7 @@
 				)
 			)
 			(text "SPD\nType 3"
-				(at 6.604 4.826 0)
+				(at 6.604 3.556 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -2911,7 +2911,7 @@
 					(justify left top)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -3.81 6.35 270)
 				(length 2.413)
 				(name ""
@@ -2924,12 +2924,12 @@
 				(number "6"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -3.81 -6.35 90)
 				(length 2.413)
 				(name ""
@@ -2942,12 +2942,12 @@
 				(number "5"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 6.35 270)
 				(length 2.413)
 				(name ""
@@ -2960,12 +2960,12 @@
 				(number "PE"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -6.35 90)
 				(length 2.413)
 				(name ""
@@ -2978,12 +2978,12 @@
 				(number "PE"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 3.81 6.35 270)
 				(length 2.413)
 				(name ""
@@ -2996,12 +2996,12 @@
 				(number "2"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 3.81 -6.35 90)
 				(length 2.413)
 				(name ""
@@ -3014,7 +3014,7 @@
 				(number "1"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -4383,43 +4383,7 @@
 		(symbol "Schalter_LS_(F)_0_1"
 			(polyline
 				(pts
-					(xy -3.175 -1.905) (xy -2.54 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -1.905) (xy -2.3014 -1.67)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -3.1577 -1.8949) (xy -3.1577 -1.8949)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.9505 -0.6011) (xy -3.175 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -4455,7 +4419,43 @@
 			)
 		)
 		(symbol "Schalter_LS_(F)_1_1"
-			(pin input line
+			(polyline
+				(pts
+					(xy -3.175 -1.905) (xy -2.54 -1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -1.905) (xy -2.3014 -1.67)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.9505 -0.6011) (xy -3.175 -1.905)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
 				(name "1"
@@ -4473,7 +4473,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -6.35 90)
 				(length 3.81)
 				(name "2"
@@ -4773,7 +4773,7 @@
 					(xy 6.604 -0.508) (xy -1.016 -0.508)
 				)
 				(stroke
-					(width 0)
+					(width 0.1016)
 					(type dash)
 				)
 				(fill
@@ -5490,7 +5490,7 @@
 					(xy 7.112 0) (xy -3.302 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.1016)
 					(type dash)
 				)
 				(fill
@@ -5756,7 +5756,7 @@
 			)
 		)
 		(symbol "Schalter_MS_(Q)_13-14+21-22_1_1"
-			(pin unspecified line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
 				(name "13"
@@ -5774,7 +5774,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "14"
@@ -5792,7 +5792,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 2.54 5.08 270)
 				(length 3.81)
 				(name "21"
@@ -5810,7 +5810,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 3.81)
 				(name "22"
@@ -5999,7 +5999,7 @@
 					(xy -1.905 0) (xy -2.54 -1.27) (xy -3.175 0) (xy -5.715 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.1016)
 					(type dash)
 				)
 				(fill
@@ -6011,14 +6011,14 @@
 					(xy 3.175 0) (xy -1.905 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.1016)
 					(type dash)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
 				(name "21"
@@ -6036,7 +6036,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "22"
@@ -6054,7 +6054,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 2.54 5.08 270)
 				(length 3.81)
 				(name "21"
@@ -6072,7 +6072,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 3.81)
 				(name "22"
@@ -6244,7 +6244,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
 				(name "24V"
@@ -6262,7 +6262,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "2"
@@ -6280,7 +6280,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 3.81 5.08 270)
 				(length 3.81)
 				(name "0V"
@@ -6415,18 +6415,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 4.445 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "Sensor_(S)_PILZ_NO_NC_1_1"
 			(rectangle
@@ -6464,6 +6452,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 4.445 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0.1016)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(text "PSEN"
 				(at -6.858 -3.556 0)
 				(effects
@@ -6480,7 +6480,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
 				(name "1"
@@ -6498,7 +6498,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "2"
@@ -6516,7 +6516,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 5.08 270)
 				(length 3.81)
 				(name "3"
@@ -6534,7 +6534,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 -5.08 90)
 				(length 3.81)
 				(name "4"
@@ -6848,7 +6848,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -13.97 90)
 				(length 1.27)
 				(name "3"
@@ -6866,7 +6866,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 13.97 270)
 				(length 1.27)
 				(name "1"
@@ -6884,7 +6884,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 -13.97 90)
 				(length 1.27)
 				(name "4"
@@ -7186,7 +7186,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -13.97 90)
 				(length 1.27)
 				(name "3"
@@ -7204,7 +7204,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 13.97 270)
 				(length 1.27)
 				(name "1"
@@ -7222,7 +7222,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 -13.97 90)
 				(length 1.27)
 				(name "4"
@@ -7611,7 +7611,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 13.97 270)
 				(length 1.27)
 				(name ""
@@ -7629,7 +7629,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 -13.97 90)
 				(length 1.27)
 				(name ""
@@ -7647,7 +7647,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 5.08 13.97 270)
 				(length 1.27)
 				(name ""
@@ -7665,7 +7665,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 5.08 -13.97 90)
 				(length 1.27)
 				(name ""
@@ -7842,7 +7842,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -6.35 2.54 0)
 				(length 1.016)
 				(name ""
@@ -7860,7 +7860,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -6.35 -2.54 0)
 				(length 1.016)
 				(name ""
@@ -7878,7 +7878,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 3.8244 270)
 				(length 1.016)
 				(name ""
@@ -7896,7 +7896,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.016)
 				(name ""
@@ -8167,7 +8167,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -2.54 0 90)
 				(length 2.54)
 				(name "L"
@@ -8180,12 +8180,12 @@
 				(number "L"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 0 90)
 				(length 2.54)
 				(name "PE"
@@ -8198,7 +8198,7 @@
 				(number "PE"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -8222,7 +8222,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 2.54 0 90)
 				(length 2.54)
 				(name "N"
@@ -8235,7 +8235,7 @@
 				(number "N"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -8261,7 +8261,7 @@
 			)
 		)
 		(property "Value" "Steckdose_W_(X)"
-			(at 0 0 0)
+			(at 0.762 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8418,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -2.54 3.81 270)
 				(length 2.54)
 				(name "L"
@@ -8431,7 +8431,7 @@
 				(number "L"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -8455,7 +8455,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 3.81 270)
 				(length 2.54)
 				(name "PE"
@@ -8468,7 +8468,7 @@
 				(number "PE"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -8492,7 +8492,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 2.54 3.81 270)
 				(length 2.54)
 				(name "N"
@@ -8505,7 +8505,7 @@
 				(number "N"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -8544,7 +8544,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-X"
-			(at -7.874 -5.842 0)
+			(at -9.398 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,7 +8663,7 @@
 					(justify right)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 5.08 270)
 				(length 1.27)
 				(name ""
@@ -8676,14 +8676,14 @@
 				(number ""
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin output line
-				(at -3.81 -7.62 90)
-				(length 2.413)
+			(pin passive line
+				(at -3.81 -5.08 90)
+				(length 1.016)
 				(name "."
 					(effects
 						(font
@@ -8694,7 +8694,7 @@
 				(number ""
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -8806,7 +8806,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
 				(name "3"
@@ -8819,12 +8819,12 @@
 				(number "3"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 3.81)
 				(name "4"
@@ -8837,7 +8837,7 @@
 				(number "4"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -8947,7 +8947,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "A1"
@@ -8965,7 +8965,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "A2"
