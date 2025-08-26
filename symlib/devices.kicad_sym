@@ -395,7 +395,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -24.13 20.32 270)
 				(length 3.048)
 				(name "PW1+"
@@ -413,7 +413,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -20.32 20.32 270)
 				(length 3.048)
 				(name "PW1-"
@@ -485,7 +485,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -1.27 20.32 270)
 				(length 3.048)
 				(name "PW2+"
@@ -503,7 +503,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 3.81 20.32 270)
 				(length 3.048)
 				(name "PW2+"
@@ -575,7 +575,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 26.67 20.32 270)
 				(length 3.048)
 				(name "PE"
@@ -5555,7 +5555,7 @@
 					(justify right)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -5.08 29.21 270)
 				(length 3.81)
 				(name "A0"
@@ -5591,7 +5591,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -2.54 29.21 270)
 				(length 3.81)
 				(name "A0"
@@ -5627,7 +5627,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 0 29.21 270)
 				(length 3.81)
 				(name "A1"
@@ -5663,7 +5663,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 2.54 29.21 270)
 				(length 3.81)
 				(name "A1"
@@ -6856,7 +6856,7 @@
 					(justify left)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -13.97 41.91 0)
 				(length 1.778)
 				(name "IN"
@@ -6874,7 +6874,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -13.97 27.94 0)
 				(length 1.778)
 				(name "OUT"
@@ -6892,7 +6892,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -11.43 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -6910,7 +6910,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -20.32 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -6928,7 +6928,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -2.54 -15.24 0)
 				(length 0.762)
 				(name "0V"
@@ -6946,7 +6946,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -2.54 -25.4 0)
 				(length 0.762)
 				(name "0V"
@@ -7662,7 +7662,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -15.24 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -7680,7 +7680,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -17.78 0)
 				(length 0.762)
 				(name "+24V_DC"
@@ -7698,7 +7698,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -25.4 0)
 				(length 0.762)
 				(name "0V"
@@ -7716,7 +7716,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -8.89 -27.94 0)
 				(length 0.762)
 				(name "0V"
@@ -9191,7 +9191,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 17.78) (xy 7.62 16.51)
+					(xy 6.35 17.78) (xy 6.35 16.51)
 				)
 				(stroke
 					(width 0)
@@ -9203,7 +9203,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 17.78) (xy 11.43 16.51)
+					(xy 10.16 17.78) (xy 10.16 16.51)
 				)
 				(stroke
 					(width 0)
@@ -9215,7 +9215,19 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 17.78) (xy 15.24 16.51)
+					(xy 13.97 17.78) (xy 13.97 16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 17.78) (xy 17.78 16.51)
 				)
 				(stroke
 					(width 0)
@@ -9276,7 +9288,7 @@
 			)
 			(polyline
 				(pts
-					(xy 21.59 17.78) (xy 21.59 16.51)
+					(xy 22.86 17.78) (xy 22.86 16.51)
 				)
 				(stroke
 					(width 0)
@@ -9288,7 +9300,7 @@
 			)
 			(polyline
 				(pts
-					(xy 24.13 17.78) (xy 24.13 16.51)
+					(xy 25.4 17.78) (xy 25.4 16.51)
 				)
 				(stroke
 					(width 0)
@@ -9300,7 +9312,7 @@
 			)
 			(polyline
 				(pts
-					(xy 26.67 17.78) (xy 26.67 16.51)
+					(xy 27.94 17.78) (xy 27.94 16.51)
 				)
 				(stroke
 					(width 0)
@@ -9455,7 +9467,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 19.05 270)
+				(at 6.35 19.05 270)
 				(length 1.27)
 				(name "V1"
 					(effects
@@ -9473,7 +9485,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 19.05 270)
+				(at 10.16 19.05 270)
 				(length 1.27)
 				(name "V2"
 					(effects
@@ -9491,7 +9503,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 19.05 270)
+				(at 13.97 19.05 270)
 				(length 1.27)
 				(name "V3"
 					(effects
@@ -9509,7 +9521,25 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 19.05 270)
+				(at 17.78 19.05 270)
+				(length 1.27)
+				(name "VN"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "VN"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 19.05 270)
 				(length 1.778)
 				(name "PE"
 					(effects
@@ -9527,7 +9557,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 19.05 270)
+				(at 25.4 19.05 270)
 				(length 1.778)
 				(name "L"
 					(effects
@@ -9545,7 +9575,7 @@
 				)
 			)
 			(pin passive line
-				(at 26.67 19.05 270)
+				(at 27.94 19.05 270)
 				(length 1.778)
 				(name "N"
 					(effects
