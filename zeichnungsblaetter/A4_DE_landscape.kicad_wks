@@ -92,12 +92,12 @@
 			(size 1.778 1.778)
 		)
 	)
-	(tbtext "Blatt:"
+	(tbtext "Blatt/ Seiten"
 		(name "text22:Text")
-		(pos 19.3962 9.2862)
+		(pos 19.396 9.286)
 		(font
 			(linewidth 0.18)
-			(size 1.778 1.778)
+			(size 1.524 1.778)
 		)
 	)
 	(tbtext "${COMPANY}"
