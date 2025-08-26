@@ -177,7 +177,7 @@
 			(pin passive line
 				(at 0 5.08 270)
 				(length 1.27)
-				(name "2"
+				(name "1"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -220,7 +220,7 @@
 						)
 					)
 				)
-				(number "L"
+				(number ""
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -238,7 +238,7 @@
 						)
 					)
 				)
-				(number "PE"
+				(number ""
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -256,7 +256,7 @@
 						)
 					)
 				)
-				(number "N"
+				(number ""
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -562,7 +562,15 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(text "Fluid/\nAir"
+				(at 13.208 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "A1"
@@ -580,7 +588,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "A2"
