@@ -9403,44 +9403,44 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -13.97 9.652) (xy -13.97 8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 9.652) (xy -8.89 8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 9.652) (xy -6.35 8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "Power-Supply_(T)_1_1"
-			(polyline
-				(pts
-					(xy -13.97 8.89) (xy -13.97 8.636)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -11.43 8.89) (xy -11.43 8.636)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 8.89) (xy -8.89 8.636)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 11.176 0.508) (xy 12.7 -1.016)
@@ -9537,16 +9537,16 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 10.16 270)
-				(length 1.27)
-				(name "L"
+				(at -13.97 11.43 270)
+				(length 1.778)
+				(name "L1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "L"
+				(number "L1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -9555,8 +9555,8 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 10.16 270)
-				(length 1.27)
+				(at -8.89 11.43 270)
+				(length 1.778)
 				(name "N"
 					(effects
 						(font
@@ -9573,8 +9573,8 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 10.16 270)
-				(length 1.27)
+				(at -6.35 11.43 270)
+				(length 1.778)
 				(name "PE"
 					(effects
 						(font
@@ -9591,8 +9591,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -10.16 90)
-				(length 1.27)
+				(at 7.62 -10.16 90)
+				(length 1.778)
 				(name "V+"
 					(effects
 						(font
@@ -9609,8 +9609,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -10.16 90)
-				(length 1.27)
+				(at 11.43 -10.16 90)
+				(length 1.778)
 				(name "V-"
 					(effects
 						(font
@@ -9619,6 +9619,372 @@
 					)
 				)
 				(number "V-"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Power-Supply_allpolig_(T)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "-T"
+			(at -21.082 9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Netztrafo"
+			(at 0.254 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spannung" "xy VDC"
+			(at -8.382 -2.286 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "I" "xy A"
+			(at -12.7 -4.064 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "ki_keywords" "Sensor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Power-Supply_allpolig_(T)_0_1"
+			(rectangle
+				(start -17.6212 8.5724)
+				(end 17.6213 -8.2549)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.97 9.652) (xy -13.97 8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 9.652) (xy -11.43 8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 9.652) (xy -8.89 8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 9.652) (xy -6.35 8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Power-Supply_allpolig_(T)_1_1"
+			(polyline
+				(pts
+					(xy 11.176 0.508) (xy 12.7 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.176 -1.016) (xy 12.7 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.684 4.064) (xy 12.192 4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 11.938 4.318)
+				(radius 0.568)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 11.938 4.318)
+				(radius 1.0776)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 11.938 -0.254)
+				(radius 1.0776)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "MW"
+				(at -12.954 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "adjust"
+				(at 11.938 2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "DC OK"
+				(at 11.938 -2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 11.43 270)
+				(length 1.778)
+				(name "L1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 11.43 270)
+				(length 1.778)
+				(name "L2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 11.43 270)
+				(length 1.778)
+				(name "L3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 11.43 270)
+				(length 1.778)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -10.16 90)
+				(length 1.778)
+				(name "L+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -10.16 90)
+				(length 1.778)
+				(name "M"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "M"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -10.16 90)
+				(length 1.778)
+				(name "M"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "M"
 					(effects
 						(font
 							(size 0.762 0.762)
