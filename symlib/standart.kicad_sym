@@ -133,7 +133,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-H"
-			(at -4.572 3.302 0)
+			(at -5.334 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,6 +171,16 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farbe" ""
+			(at 3.81 3.81 0)
+			(show_name)
+			(effects
+				(font
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -226,7 +236,7 @@
 				(number "1"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -244,7 +254,7 @@
 				(number "2"
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -7686,12 +7696,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Spule_(B)"
+	(symbol "Spule_CT_(B)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-B"
-			(at -6.2232 5.5988 0)
+			(at -3.81 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,10 +7743,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Spule_(B)_0_1"
+		(symbol "Spule_CT_(B)_0_1"
 			(polyline
 				(pts
-					(xy -1.9052 3.8208) (xy -1.9052 -3.7992)
+					(xy 0 3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -7747,8 +7757,8 @@
 				)
 			)
 			(rectangle
-				(start 0.6348 -2.5292)
-				(end 0.6348 -2.5292)
+				(start 1.778 -2.54)
+				(end 1.778 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -7758,8 +7768,8 @@
 				)
 			)
 			(rectangle
-				(start 0.6348 -2.5292)
-				(end 0.6348 -2.5292)
+				(start 1.778 -2.54)
+				(end 1.778 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -7769,10 +7779,10 @@
 				)
 			)
 		)
-		(symbol "Spule_(B)_1_1"
+		(symbol "Spule_CT_(B)_1_1"
 			(rectangle
-				(start -4.4452 2.5508)
-				(end -3.1752 -2.5292)
+				(start -2.032 2.54)
+				(end -0.762 -2.54)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7784,7 +7794,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.4452 2.5508) (xy -5.7152 2.5508)
+					(xy -2.032 2.54) (xy -3.302 2.54)
 				)
 				(stroke
 					(width 0)
@@ -7796,7 +7806,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.4452 -2.5292) (xy -5.7152 -2.5292)
+					(xy -2.032 -2.54) (xy -3.302 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -7807,8 +7817,8 @@
 				)
 			)
 			(rectangle
-				(start -0.6352 2.5508)
-				(end 0.6348 -2.5292)
+				(start 0.508 2.54)
+				(end 1.778 -2.54)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7820,7 +7830,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.0002 2.5508) (xy -0.0002 3.1858)
+					(xy 1.27 2.54) (xy 1.27 3.175)
 				)
 				(stroke
 					(width 0)
@@ -7832,7 +7842,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.0002 -2.5292) (xy -0.0002 -3.1642)
+					(xy 1.27 -2.54) (xy 1.27 -3.175)
 				)
 				(stroke
 					(width 0)
@@ -7843,8 +7853,8 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 2.54 0)
-				(length 1.016)
+				(at -3.81 2.54 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -7861,8 +7871,8 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -2.54 0)
-				(length 1.016)
+				(at -3.81 -2.54 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -7879,8 +7889,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 3.8244 270)
-				(length 1.016)
+				(at 1.27 3.81 270)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -7897,8 +7907,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.016)
+				(at 1.27 -3.81 90)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -7910,6 +7920,207 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Spule_Transformator_Einpolig_(T)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-T"
+			(at -7.874 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Spule_Transformator_Einpolig_(T)_1_1"
+			(polyline
+				(pts
+					(xy -2.5292 1.9052) (xy -2.5292 3.1752)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.5292 -1.9052) (xy -2.5292 -3.1752)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5508 1.9052) (xy 2.5508 3.1752)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.5508 1.9052)
+				(end -2.5292 0.6352)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5508 -1.9052) (xy 2.5508 -3.1752)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.5508 -1.9052)
+				(end -2.5292 -0.6352)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 1.016)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -3.81 90)
+				(length 1.016)
+				(name "31"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 3.81 270)
+				(length 1.016)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -3.81 90)
+				(length 1.016)
+				(name "34"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -9028,6 +9239,7 @@
 		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9046,6 +9258,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9163,6 +9376,145 @@
 					(effects
 						(font
 							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Verbinder_Standart_einfach_(X)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-X"
+			(at -4.572 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nummer" "x"
+			(at 3.048 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Verbinder_Standart_einfach_(X)_0_1"
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.9158)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Verbinder_Standart_einfach_(X)_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.762 0.762)
 						)
 					)
 				)
