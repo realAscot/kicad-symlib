@@ -788,17 +788,6 @@
 			)
 		)
 		(symbol "PE_1_1"
-			(circle
-				(center 0 0)
-				(radius 2.3418)
-				(stroke
-					(width 0.0254)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
