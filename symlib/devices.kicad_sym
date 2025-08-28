@@ -1201,7 +1201,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "=X-AX"
-			(at 36.322 -11.938 0)
+			(at 37.084 -11.938 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1214,6 +1214,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1255,7 +1256,7 @@
 		(symbol "PILZ_PNOZ_m2p_ETH-Basis_0_1"
 			(rectangle
 				(start -41.91 26.67)
-				(end 46.99 -26.67)
+				(end 48.26 -26.67)
 				(stroke
 					(width 0)
 					(type default)
@@ -1266,7 +1267,7 @@
 			)
 			(polyline
 				(pts
-					(xy -41.91 18.288) (xy 46.99 18.288)
+					(xy -41.91 17.78) (xy 48.26 17.78)
 				)
 				(stroke
 					(width 0)
@@ -1278,7 +1279,7 @@
 			)
 			(polyline
 				(pts
-					(xy -41.91 -18.288) (xy 46.99 -18.288)
+					(xy -41.91 -19.05) (xy 48.26 -19.05)
 				)
 				(stroke
 					(width 0)
@@ -2243,17 +2244,6 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 34.036 25.146)
-				(end 44.45 22.606)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 34.036 20.066) (xy 36.576 21.082) (xy 37.338 21.082) (xy 37.338 21.844)
@@ -2277,21 +2267,9 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 35.814 23.876)
-				(radius 0.9158)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 36.322 23.368) (xy 35.052 24.384)
-				)
+			(rectangle
+				(start 35.306 25.146)
+				(end 45.72 22.606)
 				(stroke
 					(width 0)
 					(type default)
@@ -2302,6 +2280,17 @@
 			)
 			(circle
 				(center 36.83 -23.876)
+				(radius 0.9158)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 37.084 23.876)
 				(radius 0.9158)
 				(stroke
 					(width 0)
@@ -2323,20 +2312,9 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 38.1 23.876)
-				(radius 0.9158)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy 38.608 23.368) (xy 37.338 24.384)
+					(xy 37.592 23.368) (xy 36.322 24.384)
 				)
 				(stroke
 					(width 0)
@@ -2348,6 +2326,17 @@
 			)
 			(circle
 				(center 39.116 -23.876)
+				(radius 0.9158)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 39.37 23.876)
 				(radius 0.9158)
 				(stroke
 					(width 0)
@@ -2369,20 +2358,9 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 40.386 23.876)
-				(radius 0.9158)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy 40.894 23.368) (xy 39.624 24.384)
+					(xy 39.878 23.368) (xy 38.608 24.384)
 				)
 				(stroke
 					(width 0)
@@ -2406,6 +2384,17 @@
 			)
 			(circle
 				(center 41.402 -23.876)
+				(radius 0.9158)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 41.656 23.876)
 				(radius 0.9158)
 				(stroke
 					(width 0)
@@ -2439,20 +2428,9 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 42.672 23.876)
-				(radius 0.9158)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy 43.18 23.368) (xy 41.91 24.384)
+					(xy 42.164 23.368) (xy 40.894 24.384)
 				)
 				(stroke
 					(width 0)
@@ -2473,9 +2451,32 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 43.942 23.876)
+				(radius 0.9158)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 44.196 -24.384) (xy 42.926 -23.368)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44.45 23.368) (xy 43.18 24.384)
 				)
 				(stroke
 					(width 0)
@@ -2499,8 +2500,8 @@
 				)
 			)
 			(rectangle
-				(start -38.354 18.034)
-				(end -26.67 16.256)
+				(start -38.354 16.764)
+				(end -26.67 14.986)
 				(stroke
 					(width 0)
 					(type default)
@@ -2521,8 +2522,8 @@
 				)
 			)
 			(rectangle
-				(start -38.1 17.78)
-				(end -36.068 16.51)
+				(start -38.1 16.51)
+				(end -36.068 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2543,8 +2544,8 @@
 				)
 			)
 			(rectangle
-				(start -35.814 17.78)
-				(end -33.782 16.51)
+				(start -35.814 16.51)
+				(end -33.782 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2565,8 +2566,8 @@
 				)
 			)
 			(rectangle
-				(start -33.528 17.78)
-				(end -31.496 16.51)
+				(start -33.528 16.51)
+				(end -31.496 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2587,8 +2588,8 @@
 				)
 			)
 			(rectangle
-				(start -31.242 17.78)
-				(end -29.21 16.51)
+				(start -31.242 16.51)
+				(end -29.21 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2620,8 +2621,8 @@
 				)
 			)
 			(rectangle
-				(start -28.956 17.78)
-				(end -26.924 16.51)
+				(start -28.956 16.51)
+				(end -26.924 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2677,8 +2678,8 @@
 				)
 			)
 			(rectangle
-				(start -26.416 18.034)
-				(end -14.732 16.256)
+				(start -26.416 16.764)
+				(end -14.732 14.986)
 				(stroke
 					(width 0)
 					(type default)
@@ -2699,8 +2700,8 @@
 				)
 			)
 			(rectangle
-				(start -26.162 17.78)
-				(end -24.13 16.51)
+				(start -26.162 16.51)
+				(end -24.13 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2721,8 +2722,8 @@
 				)
 			)
 			(rectangle
-				(start -23.876 17.78)
-				(end -21.844 16.51)
+				(start -23.876 16.51)
+				(end -21.844 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2743,8 +2744,8 @@
 				)
 			)
 			(rectangle
-				(start -21.59 17.78)
-				(end -19.558 16.51)
+				(start -21.59 16.51)
+				(end -19.558 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2765,8 +2766,8 @@
 				)
 			)
 			(rectangle
-				(start -19.304 17.78)
-				(end -17.272 16.51)
+				(start -19.304 16.51)
+				(end -17.272 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2787,8 +2788,8 @@
 				)
 			)
 			(rectangle
-				(start -17.018 17.78)
-				(end -14.986 16.51)
+				(start -17.018 16.51)
+				(end -14.986 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2809,8 +2810,8 @@
 				)
 			)
 			(rectangle
-				(start -14.478 18.034)
-				(end -2.794 16.256)
+				(start -14.478 16.764)
+				(end -2.794 14.986)
 				(stroke
 					(width 0)
 					(type default)
@@ -2831,8 +2832,8 @@
 				)
 			)
 			(rectangle
-				(start -14.224 17.78)
-				(end -12.192 16.51)
+				(start -14.224 16.51)
+				(end -12.192 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2853,8 +2854,8 @@
 				)
 			)
 			(rectangle
-				(start -11.938 17.78)
-				(end -9.906 16.51)
+				(start -11.938 16.51)
+				(end -9.906 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2875,8 +2876,8 @@
 				)
 			)
 			(rectangle
-				(start -9.652 17.78)
-				(end -7.62 16.51)
+				(start -9.652 16.51)
+				(end -7.62 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2897,8 +2898,8 @@
 				)
 			)
 			(rectangle
-				(start -7.366 17.78)
-				(end -5.334 16.51)
+				(start -7.366 16.51)
+				(end -5.334 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2919,8 +2920,8 @@
 				)
 			)
 			(rectangle
-				(start -5.08 17.78)
-				(end -3.048 16.51)
+				(start -5.08 16.51)
+				(end -3.048 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2941,8 +2942,8 @@
 				)
 			)
 			(rectangle
-				(start -2.54 18.034)
-				(end 9.144 16.256)
+				(start -2.54 16.764)
+				(end 9.144 14.986)
 				(stroke
 					(width 0)
 					(type default)
@@ -2963,8 +2964,8 @@
 				)
 			)
 			(rectangle
-				(start -2.286 17.78)
-				(end -0.254 16.51)
+				(start -2.286 16.51)
+				(end -0.254 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2985,8 +2986,8 @@
 				)
 			)
 			(rectangle
-				(start 0 17.78)
-				(end 2.032 16.51)
+				(start 0 16.51)
+				(end 2.032 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3007,8 +3008,8 @@
 				)
 			)
 			(rectangle
-				(start 2.286 17.78)
-				(end 4.318 16.51)
+				(start 2.286 16.51)
+				(end 4.318 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3029,8 +3030,8 @@
 				)
 			)
 			(rectangle
-				(start 4.572 17.78)
-				(end 6.604 16.51)
+				(start 4.572 16.51)
+				(end 6.604 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3051,8 +3052,8 @@
 				)
 			)
 			(rectangle
-				(start 6.858 17.78)
-				(end 8.89 16.51)
+				(start 6.858 16.51)
+				(end 8.89 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3073,8 +3074,8 @@
 				)
 			)
 			(rectangle
-				(start 9.398 18.034)
-				(end 21.082 16.256)
+				(start 9.398 16.764)
+				(end 21.082 14.986)
 				(stroke
 					(width 0)
 					(type default)
@@ -3084,8 +3085,8 @@
 				)
 			)
 			(rectangle
-				(start 9.652 17.78)
-				(end 11.684 16.51)
+				(start 9.652 16.51)
+				(end 11.684 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3117,8 +3118,8 @@
 				)
 			)
 			(rectangle
-				(start 11.938 17.78)
-				(end 13.97 16.51)
+				(start 11.938 16.51)
+				(end 13.97 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3139,8 +3140,8 @@
 				)
 			)
 			(rectangle
-				(start 14.224 17.78)
-				(end 16.256 16.51)
+				(start 14.224 16.51)
+				(end 16.256 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3161,8 +3162,8 @@
 				)
 			)
 			(rectangle
-				(start 16.51 17.78)
-				(end 18.542 16.51)
+				(start 16.51 16.51)
+				(end 18.542 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3183,8 +3184,8 @@
 				)
 			)
 			(rectangle
-				(start 18.796 17.78)
-				(end 20.828 16.51)
+				(start 18.796 16.51)
+				(end 20.828 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3205,8 +3206,8 @@
 				)
 			)
 			(rectangle
-				(start 21.336 18.034)
-				(end 33.02 16.256)
+				(start 21.336 16.764)
+				(end 33.02 14.986)
 				(stroke
 					(width 0)
 					(type default)
@@ -3216,8 +3217,8 @@
 				)
 			)
 			(rectangle
-				(start 21.59 17.78)
-				(end 23.622 16.51)
+				(start 21.59 16.51)
+				(end 23.622 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3249,8 +3250,8 @@
 				)
 			)
 			(rectangle
-				(start 23.876 17.78)
-				(end 25.908 16.51)
+				(start 23.876 16.51)
+				(end 25.908 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3271,8 +3272,8 @@
 				)
 			)
 			(rectangle
-				(start 26.162 17.78)
-				(end 28.194 16.51)
+				(start 26.162 16.51)
+				(end 28.194 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3293,8 +3294,8 @@
 				)
 			)
 			(rectangle
-				(start 28.448 17.78)
-				(end 30.48 16.51)
+				(start 28.448 16.51)
+				(end 30.48 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3315,8 +3316,8 @@
 				)
 			)
 			(rectangle
-				(start 30.734 17.78)
-				(end 32.766 16.51)
+				(start 30.734 16.51)
+				(end 32.766 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3337,8 +3338,8 @@
 				)
 			)
 			(rectangle
-				(start 33.274 18.034)
-				(end 44.958 16.256)
+				(start 33.274 16.764)
+				(end 44.958 14.986)
 				(stroke
 					(width 0)
 					(type default)
@@ -3348,8 +3349,8 @@
 				)
 			)
 			(rectangle
-				(start 33.528 17.78)
-				(end 35.56 16.51)
+				(start 33.528 16.51)
+				(end 35.56 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3381,8 +3382,8 @@
 				)
 			)
 			(rectangle
-				(start 35.814 17.78)
-				(end 37.846 16.51)
+				(start 35.814 16.51)
+				(end 37.846 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3415,8 +3416,8 @@
 				)
 			)
 			(rectangle
-				(start 38.1 17.78)
-				(end 40.132 16.51)
+				(start 38.1 16.51)
+				(end 40.132 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3449,8 +3450,8 @@
 				)
 			)
 			(rectangle
-				(start 40.386 17.78)
-				(end 42.418 16.51)
+				(start 40.386 16.51)
+				(end 42.418 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3483,8 +3484,8 @@
 				)
 			)
 			(rectangle
-				(start 42.672 17.78)
-				(end 44.704 16.51)
+				(start 42.672 16.51)
+				(end 44.704 15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3646,19 +3647,19 @@
 					(justify left)
 				)
 			)
-			(text "X3"
-				(at 32.258 23.622 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(text "13"
 				(at 32.258 21.336 0)
 				(effects
 					(font
 						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "X3"
+				(at 33.528 23.622 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -3737,8 +3738,9 @@
 				)
 			)
 			(pin input line
-				(at -43.18 8.89 0)
-				(length 1.27)
+				(at -38.1 8.89 0)
+				(length 0)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -3755,8 +3757,9 @@
 				)
 			)
 			(pin output line
-				(at -43.18 0 0)
-				(length 1.27)
+				(at -38.1 0 0)
+				(length 0)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -4439,7 +4442,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 30.48 270)
+				(at 36.83 30.48 270)
 				(length 3.81)
 				(name "13"
 					(effects
@@ -4449,24 +4452,6 @@
 					)
 				)
 				(number "13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 38.1 30.48 270)
-				(length 3.81)
-				(name "14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "14"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4493,16 +4478,16 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 30.48 270)
+				(at 39.37 30.48 270)
 				(length 3.81)
-				(name "13"
+				(name "14"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "13"
+				(number "14"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4529,16 +4514,16 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 30.48 270)
+				(at 41.91 30.48 270)
 				(length 3.81)
-				(name "14"
+				(name "13"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "14"
+				(number "13"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4557,6 +4542,24 @@
 					)
 				)
 				(number "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 44.45 30.48 270)
+				(length 3.81)
+				(name "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4604,15 +4607,16 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,8 +4644,8 @@
 		)
 		(symbol "PILZ_PNOZ_mi1p_0_1"
 			(rectangle
-				(start -6.985 25.4)
-				(end 7.112 -27.94)
+				(start -7.62 25.4)
+				(end 7.62 -27.94)
 				(stroke
 					(width 0)
 					(type default)
@@ -4652,7 +4656,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.858 17.018) (xy 7.112 17.018)
+					(xy -7.62 16.51) (xy 7.62 16.51)
 				)
 				(stroke
 					(width 0)
@@ -4664,7 +4668,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.858 -19.558) (xy 7.112 -19.558)
+					(xy -7.62 -20.066) (xy 7.62 -20.066)
 				)
 				(stroke
 					(width 0)
@@ -4929,8 +4933,8 @@
 		)
 		(symbol "PILZ_PNOZ_mi1p_1_1"
 			(rectangle
-				(start -5.715 14.859)
-				(end 5.969 16.637)
+				(start -5.842 15.494)
+				(end 5.842 13.716)
 				(stroke
 					(width 0)
 					(type default)
@@ -4951,8 +4955,8 @@
 				)
 			)
 			(rectangle
-				(start -5.461 16.383)
-				(end -3.429 15.113)
+				(start -5.588 15.24)
+				(end -3.556 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4973,8 +4977,8 @@
 				)
 			)
 			(rectangle
-				(start -5.207 11.049)
-				(end -3.937 9.017)
+				(start -4.191 9.017)
+				(end -2.921 6.985)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4984,8 +4988,8 @@
 				)
 			)
 			(rectangle
-				(start -5.207 8.763)
-				(end -3.937 6.731)
+				(start -4.191 6.731)
+				(end -2.921 4.699)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4995,19 +4999,8 @@
 				)
 			)
 			(rectangle
-				(start -3.937 13.335)
-				(end -5.207 11.303)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start -3.175 15.113)
-				(end -1.143 16.383)
+				(start -3.302 15.24)
+				(end -1.27 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5028,8 +5021,19 @@
 				)
 			)
 			(rectangle
-				(start -0.889 15.113)
-				(end 1.143 16.383)
+				(start -2.921 11.303)
+				(end -4.191 9.271)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.016 15.24)
+				(end 1.016 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5050,8 +5054,8 @@
 				)
 			)
 			(rectangle
-				(start 1.397 15.113)
-				(end 3.429 16.383)
+				(start 1.27 15.24)
+				(end 3.302 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5072,8 +5076,8 @@
 				)
 			)
 			(rectangle
-				(start 3.683 15.113)
-				(end 5.715 16.383)
+				(start 3.556 15.24)
+				(end 5.588 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5094,7 +5098,7 @@
 				)
 			)
 			(text "PNOZ\nmi1p"
-				(at -5.842 -1.778 0)
+				(at -5.842 -7.874 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -5103,7 +5107,7 @@
 				)
 			)
 			(text "pilz"
-				(at -3.81 1.778 0)
+				(at -3.81 -4.318 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -5113,7 +5117,7 @@
 				)
 			)
 			(text "PWR"
-				(at 0 12.192 0)
+				(at 1.016 10.16 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -5122,7 +5126,7 @@
 				)
 			)
 			(text "FAULT"
-				(at 1.27 7.62 0)
+				(at 2.286 5.588 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -5337,6 +5341,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5368,8 +5373,8 @@
 		)
 		(symbol "PILZ_PNOZ_mo3p_0_1"
 			(rectangle
-				(start -6.985 25.4)
-				(end 7.112 -27.94)
+				(start -7.62 25.4)
+				(end 7.62 -27.94)
 				(stroke
 					(width 0)
 					(type default)
@@ -5380,7 +5385,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.858 17.018) (xy 7.112 17.018)
+					(xy -7.62 16.51) (xy 7.62 16.51)
 				)
 				(stroke
 					(width 0)
@@ -5392,7 +5397,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.858 -19.558) (xy 7.112 -19.558)
+					(xy -7.62 -20.32) (xy 7.62 -20.32)
 				)
 				(stroke
 					(width 0)
@@ -5657,8 +5662,8 @@
 		)
 		(symbol "PILZ_PNOZ_mo3p_1_1"
 			(rectangle
-				(start -5.715 14.859)
-				(end 5.969 16.637)
+				(start -5.842 15.494)
+				(end 5.842 13.716)
 				(stroke
 					(width 0)
 					(type default)
@@ -5679,8 +5684,8 @@
 				)
 			)
 			(rectangle
-				(start -5.461 16.383)
-				(end -3.429 15.113)
+				(start -5.588 15.24)
+				(end -3.556 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5701,8 +5706,8 @@
 				)
 			)
 			(rectangle
-				(start -5.207 11.049)
-				(end -3.937 9.017)
+				(start -5.207 9.017)
+				(end -3.937 6.985)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5712,8 +5717,8 @@
 				)
 			)
 			(rectangle
-				(start -5.207 8.763)
-				(end -3.937 6.731)
+				(start -5.207 6.731)
+				(end -3.937 4.699)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5723,8 +5728,8 @@
 				)
 			)
 			(rectangle
-				(start -3.937 13.335)
-				(end -5.207 11.303)
+				(start -3.937 11.303)
+				(end -5.207 9.271)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5734,8 +5739,8 @@
 				)
 			)
 			(rectangle
-				(start -3.175 15.113)
-				(end -1.143 16.383)
+				(start -3.302 15.24)
+				(end -1.27 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5756,8 +5761,8 @@
 				)
 			)
 			(rectangle
-				(start -0.889 15.113)
-				(end 1.143 16.383)
+				(start -1.016 15.24)
+				(end 1.016 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5778,8 +5783,8 @@
 				)
 			)
 			(rectangle
-				(start 1.397 15.113)
-				(end 3.429 16.383)
+				(start 1.27 15.24)
+				(end 3.302 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5800,8 +5805,8 @@
 				)
 			)
 			(rectangle
-				(start 3.683 15.113)
-				(end 5.715 16.383)
+				(start 3.556 15.24)
+				(end 5.588 13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5822,7 +5827,7 @@
 				)
 			)
 			(text "PNOZ\nmo3p"
-				(at -5.842 -1.778 0)
+				(at -5.588 -8.128 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -5831,7 +5836,7 @@
 				)
 			)
 			(text "pilz"
-				(at -3.81 1.778 0)
+				(at -3.556 -4.572 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -5841,7 +5846,7 @@
 				)
 			)
 			(text "PWR"
-				(at 0 12.192 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -5850,7 +5855,7 @@
 				)
 			)
 			(text "FAULT"
-				(at 1.27 7.62 0)
+				(at 1.27 5.588 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -5861,17 +5866,17 @@
 			(pin output line
 				(at -5.08 29.21 270)
 				(length 3.81)
-				(name "A0"
+				(name "A0+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "A0"
+				(number "A0+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -5882,14 +5887,14 @@
 				(name "24V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
 				(number "24V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -5897,17 +5902,17 @@
 			(pin output line
 				(at -2.54 29.21 270)
 				(length 3.81)
-				(name "A0"
+				(name "A0-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "A0"
+				(number "A0-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -5918,14 +5923,14 @@
 				(name "24V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
 				(number "24V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -5933,17 +5938,17 @@
 			(pin output line
 				(at 0 29.21 270)
 				(length 3.81)
-				(name "A1"
+				(name "A1+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "A1"
+				(number "A1+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -5954,14 +5959,14 @@
 				(name "0V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
 				(number "0V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -5969,17 +5974,17 @@
 			(pin output line
 				(at 2.54 29.21 270)
 				(length 3.81)
-				(name "A1"
+				(name "A1-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "A1"
+				(number "A1-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -5990,14 +5995,14 @@
 				(name "0V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
 				(number "0V"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -6008,14 +6013,14 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
 				(number ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -6026,14 +6031,14 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
 				(number ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -10654,10 +10659,10 @@
 			)
 		)
 		(property "Copyright" "(C) Adam Skotarczak"
-			(at 28.702 9.906 0)
+			(at 0.762 -9.144 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 				(hide yes)
 			)
