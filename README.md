@@ -8,10 +8,11 @@
     - [MyCustomLib – KiCad Symbol Library](#mycustomlib--kicad-symbol-library)
       - [Direkteinbindung in KiCad 9](#direkteinbindung-in-kicad-9)
   - [**Fertiger sym-lib-table-Ausschnitt**](#fertiger-sym-lib-table-ausschnitt)
-  - [Betriebsmittelkennzeichnung Industrie](#betriebsmittelkennzeichnung-industrie)
-    - [Kennbuchstaben (A1) nach DIN EN IEC 81346-2 2019 / DIN EN IEC 81346-2 2020-10](#kennbuchstaben-a1-nach-din-en-iec-81346-2-2019--din-en-iec-81346-2-2020-10)
-    - [Auszug typische Unterklassen (A2) für die Praxis](#auszug-typische-unterklassen-a2-für-die-praxis)
-  - [Abkürzungen Betriebsmittel - Elektronik](#abkürzungen-betriebsmittel---elektronik)
+  - [Dokumente und Anleitungen](#dokumente-und-anleitungen)
+    - [Betriebsmittelkennzeichnung Industrie](#betriebsmittelkennzeichnung-industrie)
+      - [Kennbuchstaben (A1) nach DIN EN IEC 81346-2 2019 / DIN EN IEC 81346-2 2020-10](#kennbuchstaben-a1-nach-din-en-iec-81346-2-2019--din-en-iec-81346-2-2020-10)
+      - [Auszug typische Unterklassen (A2) für die Praxis](#auszug-typische-unterklassen-a2-für-die-praxis)
+    - [Abkürzungen Betriebsmittel - Elektronik](#abkürzungen-betriebsmittel---elektronik)
   - [License](#license)
 
 ## Informationen
@@ -54,9 +55,11 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
 
 ---
 
-## Betriebsmittelkennzeichnung Industrie
+## Dokumente und Anleitungen
 
-### Kennbuchstaben (A1) nach DIN EN IEC 81346-2 2019 / DIN EN IEC 81346-2 2020-10
+### Betriebsmittelkennzeichnung Industrie
+
+#### Kennbuchstaben (A1) nach DIN EN IEC 81346-2 2019 / DIN EN IEC 81346-2 2020-10
 
 | Kennbuchstabe | Verwendung / Funktion (Kurzfassung)                                             | Quelle                                                          |
 | ------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -89,7 +92,7 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
 
 **Normquellen/Übersichten:** Zusammenfassungen der Klassen inkl. Beispiele und Erläuterungen finden sich in den verlinkten Übersichten; die deutsche Wikipedia-Seite fasst die 2019er Ausgabe (deutsche Übernahme 2020-10) prägnant zusammen. Für Praxisbeispiele/Unterklassen existieren zudem kompakte Tabellen (z. B. IHK PAL). ([Wikipedia][1], [Industrie- und Handelskammer][4])
 
-### Auszug typische Unterklassen (A2) für die Praxis
+#### Auszug typische Unterklassen (A2) für die Praxis
 
 | Kennz. (A2) | Verwendung                                                      | Quelle                                                                                       |
 | ----------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -111,7 +114,7 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
 
 ---
 
-## Abkürzungen Betriebsmittel - Elektronik
+### Abkürzungen Betriebsmittel - Elektronik
 
 | Abkürzung | Bauteil                 | Beschreibung                       |
 |-----------|-------------------------|----------------------------------|

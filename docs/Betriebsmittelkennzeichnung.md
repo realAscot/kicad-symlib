@@ -54,6 +54,7 @@ In der alten DIN 40719 waren die Kennbuchstaben stark praxisorientiert. Beispiel
 | Alt (DIN 40719) | Typische Bedeutung                    | Beispiel                     |
 | --------------- | ------------------------------------- | ---------------------------- |
 | A               | Baugruppen, Aggregate, SPS-E/A-Module | Siemens SM 321 Digital Input |
+| C               | Akku, Batterie, Puffer, USV           | USV, UPS                     |
 | E               | Erzeuger                              | Generator                    |
 | F               | Sicherungen                           | Leitungsschutzschalter       |
 | H               | Signalisierung                        | Lampe, Summer                |

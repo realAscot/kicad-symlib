@@ -1,4 +1,4 @@
-# Betriebsmittel und Abkürzungen
+# Betriebsmittel und Abkürzungen EU/ DE / EN
 
 > ⚠️ Hinweis: In der Praxis gibt es Abweichungen je nach Normenreihe (DIN VDE, IEC, EN) und Hersteller. Ich habe nur **standardisierte und etablierte Bezeichnungen** aufgenommen.
 
