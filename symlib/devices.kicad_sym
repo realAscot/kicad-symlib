@@ -917,6 +917,868 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Monitor-HMI_(A)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "-A"
+			(at -21.844 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Monitor (HMI)"
+			(at 0 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Sensor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Monitor-HMI_(A)_0_1"
+			(rectangle
+				(start -17.6212 15.24)
+				(end 17.6213 -11.4299)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -15.24 12.7)
+				(end 15.24 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15.24 -11.43) (xy -15.24 -15.24) (xy 15.24 -15.24) (xy 15.24 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -16.51) (xy -12.7 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -16.51) (xy -10.16 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -16.51) (xy -7.62 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -15.24) (xy -5.08 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.937 -14.478) (xy 3.683 -14.478) (xy 3.048 -11.938) (xy -3.302 -11.938) (xy -3.937 -14.478)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -16.51) (xy 0 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -15.24) (xy 5.08 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -14.605) (xy 12.7 -14.605) (xy 12.7 -13.335) (xy 12.065 -13.335) (xy 12.065 -12.7) (xy 8.255 -12.7)
+					(xy 8.255 -13.335) (xy 7.62 -13.335) (xy 7.62 -14.605)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -16.51) (xy 10.16 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Monitor-HMI_(A)_1_1"
+			(text "Power"
+				(at -9.906 -13.462 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "VGA"
+				(at 0 -13.335 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -17.78 90)
+				(length 1.778)
+				(name "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -17.78 90)
+				(length 1.778)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -17.78 90)
+				(length 1.778)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -17.78 90)
+				(length 1.27)
+				(name "VGA"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "VGA"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -17.78 90)
+				(length 1.778)
+				(name "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PC-PLC_(A)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "-A"
+			(at -57.658 18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC"
+			(at 0 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Sensor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PC-PLC_(A)_0_1"
+			(rectangle
+				(start -59.69 15.24)
+				(end 59.0549 -11.4299)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -58.42 13.97)
+				(end 51.435 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -54.61 -7.62) (xy -24.13 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -54.61 -7.62) (xy -54.61 -11.43) (xy -24.13 -11.43) (xy -24.13 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -52.07 -12.7) (xy -52.07 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -49.53 -12.7) (xy -49.53 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -46.99 -12.7) (xy -46.99 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -11.43) (xy -44.45 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -43.18 -10.795) (xy -35.56 -10.795) (xy -36.195 -8.255) (xy -42.545 -8.255) (xy -43.18 -10.795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -39.37 -12.7) (xy -39.37 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -34.29 -11.43) (xy -34.29 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -31.75 -10.795) (xy -26.67 -10.795) (xy -26.67 -9.525) (xy -27.305 -9.525) (xy -27.305 -8.89)
+					(xy -31.115 -8.89) (xy -31.115 -9.525) (xy -31.75 -9.525) (xy -31.75 -10.795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -29.21 -12.7) (xy -29.21 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 36.83 -6.35)
+				(end 42.545 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.735 -10.16) (xy 38.735 -9.525) (xy 37.465 -9.525) (xy 37.465 -6.985) (xy 41.91 -6.985) (xy 41.91 -9.525)
+					(xy 41.275 -9.525) (xy 40.64 -9.525) (xy 40.64 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 39.37 -12.7) (xy 39.37 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 44.45 -6.35)
+				(end 50.165 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 46.355 -10.16) (xy 46.355 -9.525) (xy 45.085 -9.525) (xy 45.085 -6.985) (xy 49.53 -6.985) (xy 49.53 -9.525)
+					(xy 48.895 -9.525) (xy 48.26 -9.525) (xy 48.26 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 46.99 -12.7) (xy 46.99 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 54.61 7.62)
+				(end 58.42 13.335)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 58.42 9.525) (xy 57.785 9.525) (xy 57.785 8.255) (xy 55.245 8.255) (xy 55.245 12.7) (xy 57.785 12.7)
+					(xy 57.785 12.065) (xy 57.785 11.43) (xy 58.42 11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 59.69 10.16) (xy 59.055 10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 60.96 10.16) (xy 59.69 10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PC-PLC_(A)_1_1"
+			(text "PC"
+				(at -52.832 10.414 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "Power"
+				(at -49.276 -9.652 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "VGA"
+				(at -39.37 -9.652 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "X1"
+				(at 39.37 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X2"
+				(at 46.99 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "X3\n"
+				(at 53.594 10.16 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
+				(at -52.07 -13.97 90)
+				(length 1.27)
+				(name "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -49.53 -13.97 90)
+				(length 1.27)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -46.99 -13.97 90)
+				(length 1.27)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -39.37 -13.97 90)
+				(length 1.27)
+				(name "VGA"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "VGA"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -13.97 90)
+				(length 1.27)
+				(name "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 39.37 -16.51 90)
+				(length 3.81)
+				(name "X1-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X1-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 46.99 -16.51 90)
+				(length 3.81)
+				(name "X2-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X2-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 64.77 10.16 180)
+				(length 3.81)
+				(name "X3-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "X3-RX-TX"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "PILZ_BK-PNOZ_mc2.1_(A)_Buskoppler_Ethercat"
 		(pin_numbers
 			(hide yes)
@@ -4977,8 +5839,8 @@
 				)
 			)
 			(rectangle
-				(start -4.191 9.017)
-				(end -2.921 6.985)
+				(start -4.953 9.017)
+				(end -3.683 6.985)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4988,8 +5850,19 @@
 				)
 			)
 			(rectangle
-				(start -4.191 6.731)
-				(end -2.921 4.699)
+				(start -4.953 6.731)
+				(end -3.683 4.699)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -3.683 11.303)
+				(end -4.953 9.271)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5012,17 +5885,6 @@
 			(rectangle
 				(start -3.175 -17.653)
 				(end -1.143 -18.923)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start -2.921 11.303)
-				(end -4.191 9.271)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5117,7 +5979,7 @@
 				)
 			)
 			(text "PWR"
-				(at 1.016 10.16 0)
+				(at 0.254 10.16 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -5126,7 +5988,7 @@
 				)
 			)
 			(text "FAULT"
-				(at 2.286 5.588 0)
+				(at 1.524 5.588 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -11237,6 +12099,600 @@
 					(effects
 						(font
 							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "USB-HUB_(A)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "-A"
+			(at -33.274 7.874 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USB-HUB_(A)_0_1"
+			(rectangle
+				(start -29.21 7.62)
+				(end 29.21 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.86 8.89) (xy -22.86 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20.32 6.985) (xy -25.4 6.985) (xy -25.4 5.715) (xy -24.765 5.715) (xy -24.765 5.08) (xy -20.955 5.08)
+					(xy -20.955 5.715) (xy -20.32 5.715) (xy -20.32 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15.24 8.89) (xy -15.24 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 6.985) (xy -17.78 6.985) (xy -17.78 5.715) (xy -17.145 5.715) (xy -17.145 5.08) (xy -13.335 5.08)
+					(xy -13.335 5.715) (xy -12.7 5.715) (xy -12.7 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 8.89) (xy -7.62 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 6.985) (xy -10.16 6.985) (xy -10.16 5.715) (xy -9.525 5.715) (xy -9.525 5.08) (xy -5.715 5.08)
+					(xy -5.715 5.715) (xy -5.08 5.715) (xy -5.08 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.89) (xy 0 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 6.985) (xy -2.54 6.985) (xy -2.54 5.715) (xy -1.905 5.715) (xy -1.905 5.08) (xy 1.905 5.08)
+					(xy 1.905 5.715) (xy 2.54 5.715) (xy 2.54 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 8.89) (xy 7.62 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 6.985) (xy 5.08 6.985) (xy 5.08 5.715) (xy 5.715 5.715) (xy 5.715 5.08) (xy 9.525 5.08)
+					(xy 9.525 5.715) (xy 10.16 5.715) (xy 10.16 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USB-HUB_(A)_1_1"
+			(rectangle
+				(start -24.13 2.54)
+				(end 24.13 -4.572)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "USB-HUB XY"
+				(at 11.43 5.334 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left top)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 10.16 270)
+				(length 1.27)
+				(name "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 10.16 270)
+				(length 1.27)
+				(name "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 10.16 270)
+				(length 1.27)
+				(name "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 10.16 270)
+				(length 1.27)
+				(name "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 10.16 270)
+				(length 1.27)
+				(name "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "USB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "USV_(C)"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "-C"
+			(at -19.304 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USV"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Sensor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USV_(C)_0_1"
+			(polyline
+				(pts
+					(xy -18.542 2.54) (xy -17.526 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -18.542 0) (xy -17.526 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -18.542 -2.54) (xy -17.526 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -17.6212 7.62)
+				(end 17.6213 -7.6199)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.542 2.54) (xy 17.526 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.542 0) (xy 17.526 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18.542 -2.54) (xy 17.526 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USV_(C)_1_1"
+			(text "230 VAC\nIN"
+				(at -14.478 0 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "USV"
+				(at -0.254 0 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(text "230 VAC\nOUT"
+				(at 14.732 0 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.3048)
+						(bold yes)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 2.54 0)
+				(length 1.778)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 0 0)
+				(length 1.778)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -20.32 -2.54 0)
+				(length 1.778)
+				(name "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 2.54 180)
+				(length 1.778)
+				(name "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "PE"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 1.778)
+				(name "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 1.778)
+				(name "L"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "L"
+					(effects
+						(font
+							(size 0.762 0.762)
 						)
 					)
 				)
