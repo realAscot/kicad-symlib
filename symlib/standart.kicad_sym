@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "-X"
-			(at -6.35 3.048 0)
+			(at -5.334 3.556 0)
 			(effects
 				(font
 					(size 1.016 1.016)

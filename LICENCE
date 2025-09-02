@@ -1,0 +1,37 @@
+# 1. Lizenz-Header für KiCad-Dateien
+
+```text
+# -----------------------------------------------------------------------------
+# Symbolbibliothek für KiCad
+# 
+# © 2025 Adam Skotarczak – ionivation.com
+#
+# Lizenz: Frei nutzbar, veränderbar und weitergebbar (inkl. kommerzieller Nutzung).
+# Bedingung: Bitte nennen Sie bei Verwendung oder Weitergabe den ursprünglichen Autor.
+#
+# License: Free to use, modify and redistribute (including commercial use).
+# Requirement: Please give credit to the original author when using or redistributing.
+# -----------------------------------------------------------------------------
+```
+
+---
+
+## 2. README-Lizenztext
+
+### Deutsch
+
+Diese Symbolbibliothek für KiCad darf **frei genutzt, verändert und weitergegeben** werden – auch in kommerziellen Projekten.
+Einzige Bedingung: Bitte bei Verwendung oder Weitergabe den ursprünglichen Autor nennen.
+
+**Namensnennung:**
+© 2025 Adam Skotarczak – [ionivation.com](http://www.ionivation.com)
+
+---
+
+### English
+
+This KiCad symbol library may be **freely used, modified and redistributed** – including for commercial projects.
+The only requirement: Please give credit to the original author when using or redistributing.
+
+**Attribution:**
+© 2025 Adam Skotarczak – [ionivation.com](http://www.ionivation.com)
