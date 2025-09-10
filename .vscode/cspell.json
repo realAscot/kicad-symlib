@@ -1,0 +1,80 @@
+{
+  "version": "0.2",
+  "language": "en,de",
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "enabled": false
+    },
+    {
+      "languageId": "plaintext",
+      "enabled": true
+    },
+    {
+      "languageId": "markdown",
+      "enabled": true
+    },
+    {
+      "languageId": "asciidoc",
+      "enabled": true
+    }
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "build",
+    "output",
+    ".git"
+  ],
+  "words": [
+    "abschranken",
+    "adoc",
+    "allpolig",
+    "arraybackslash",
+    "AsciiDoc",
+    "autochapter",
+    "Autorenrechtlich",
+    "Buildchain",
+    "Buildversion",
+    "clonen",
+    "Codesys",
+    "Codesysprogramm",
+    "DGUV",
+    "Effizienzkritischen",
+    "Ethercat",
+    "Funkengefahr",
+    "gitcopy",
+    "kapitel",
+    "Licence",
+    "localfonts",
+    "Logfile",
+    "makefile",
+    "Neutralleiter",
+    "newpage",
+    "okular",
+    "Ölflex",
+    "pandoc",
+    "Pandoc",
+    "PDFTheme",
+    "Pneumatikventile",
+    "PNOZ",
+    "Pressenstempel",
+    "Printversion",
+    "Projektinterne",
+    "Propotionalventile",
+    "raggedright",
+    "realAscot",
+    "Schottky",
+    "Skotarczak",
+    "tabularx",
+    "texlive",
+    "textbf",
+    "textwidth",
+    "tocgen",
+    "versionierten",
+    "winget",
+    "Leckagen",
+    "Mitarbeiter",
+    "Zustimmtaster",
+  ]
+}

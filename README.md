@@ -21,11 +21,10 @@
 
 ## Anleitung
 
-Hier eine saubere **Vorlage für ein GitHub-Repository**, damit andere deine **KiCad-Symbollibrary** direkt per URL in ihre `sym-lib-table` einbinden können.
-
 ### MyCustomLib – KiCad Symbol Library
 
-Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
+Diese Bibliothek enthält Symbole für Bauteile aus und für den Schaltschrankbau, Konstruktion, Hobby und Handwerk.
+Teilweise symbolische Darstellung.
 
 #### Direkteinbindung in KiCad 9
 
@@ -57,7 +56,7 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
 
 ## Dokumente und Anleitungen
 
-### Betriebsmittelkennzeichnung Industrie
+### [Betriebsmittelkennzeichnung Industrie](./docs/README.md)
 
 #### Kennbuchstaben (A1) nach DIN EN IEC 81346-2 2019 / DIN EN IEC 81346-2 2020-10
 
@@ -136,7 +135,7 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
 | X         | Bauteil, sonstiges      | Allgemeiner Platzhalter           |
 | IC        | Integrierter Schaltkreis| Synonym für U, oft verwendet     |
 | OPT       | Optokoppler             | Optische Kopplungseinheit         |
-| LED       | Leuchtdiode             | Lichtemittierende Diode           |
+| LED       | Leuchtdiode             | Lichtmittierende Diode           |
 | SW        | Schalter (Switch)       | Manuell bedienbarer Schalter      |
 | VR        | Variabler Widerstand    | Potentiometer oder Trimmer        |
 | SCR       | Thyristor               | Steuerbare Halbleiterdiode        |
@@ -150,4 +149,4 @@ Diese Bibliothek enthält Symbole für Bauteile aus dem Schaltschrankbau.
 
 ## License
 
-(c) 2025 - Adam Skotarczak
+&copy; 2025 - Adam Skotarczak

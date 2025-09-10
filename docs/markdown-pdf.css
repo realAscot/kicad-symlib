@@ -1,0 +1,88 @@
+/* -------- Grundschrift & Layout -------- */
+@page {
+  size: A4;
+  margin: 1.5cm;
+}
+:root {
+  --text: #222;
+  --muted: #666;
+  --accent: #0d6efd; /* Bootstrap-typischer Blauton */
+  --code-bg: #f6f8fa;
+  --border: #e5e7eb;
+}
+html, body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--text);
+  line-height: 1.5;
+  font-size: 12pt;
+}
+
+/* -------- Überschriften-Hierarchie -------- */
+h1, h2, h3, h4, h5, h6 { page-break-after: avoid; font-weight: 700; }
+h1 { font-size: 22pt; margin: 0 0 0.4cm; border-bottom: 2px solid var(--border); padding-bottom: 0.2cm; }
+h2 { font-size: 18pt; margin: 0.6cm 0 0.3cm; }
+h3 { font-size: 14pt; margin: 0.5cm 0 0.25cm; }
+
+/* -------- Absatz & Listen -------- */
+p { margin: 0 0 0.35cm; }
+ul, ol { margin: 0 0 0.35cm 0.6cm; }
+li { margin: 0.1cm 0; }
+
+/* -------- Tabellen -------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.35cm 0;
+  font-size: 10pt;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  vertical-align: top;
+}
+th {
+  background: #fafafa;
+  text-align: left;
+}
+
+/* -------- Code-Blöcke & Inline-Code -------- */
+code, pre code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Liberation Mono", Consolas, "Courier New", monospace; }
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  border-radius: 6px;
+  overflow: auto;
+  font-size: 10pt;
+  margin: 0.35cm 0;
+}
+code {
+  background: var(--code-bg);
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+/* -------- Bilder, Zitate, Links -------- */
+img { max-width: 100%; page-break-inside: avoid; }
+blockquote {
+  margin: 0.35cm 0;
+  padding: 0.01cm 0 0.01cm 0.5cm;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* -------- Seitenumbruch steuern -------- */
+hr, .page { page-break-after: always; border: 0; height: 0; }
+
+/* -------- ToC (optional, falls generiert) -------- */
+.toc ul { list-style: none; margin-left: 0; padding-left: 0; }
+.toc li { margin: 0.15cm 0; }
+
+/* -------- Mermaid/PlantUML (falls genutzt) -------- */
+.mermaid, .plantuml { page-break-inside: avoid; }
+
+/* -------- Emoji Größe anpassbar -------- */
+.emoji { height: 1.25em; }
+

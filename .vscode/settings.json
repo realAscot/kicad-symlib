@@ -1,0 +1,50 @@
+{
+  // --- Ausgabe ---
+  "markdown-pdf.type": ["pdf"],                       // Exportformat(e)
+  "markdown-pdf.outputDirectory": "./build/",         // Zielordner relativ zum Projekt
+  "markdown-pdf.outputDirectoryRelativePathFile": true,
+  "markdown-pdf.convertOnSave": true,
+
+  // --- Styles ---
+  "markdown-pdf.styles": [
+    "docs/markdown-pdf.css"                           // dein projektspezifisches CSS
+  ],
+  "markdown-pdf.stylesRelativePathFile": false,       // relativer Bezug zum Workspace
+  "markdown-pdf.includeDefaultStyles": true,          // VSCode/Ext.-Default-Styles beibehalten
+
+  // --- Syntax-Highlighting ---
+  "markdown-pdf.highlight": true,
+  "markdown-pdf.highlightStyle": "github.css",        // Alternativen: monokai.css, atom-one-dark.css, ...
+
+  // --- PDF-Optionen (Puppeteer) ---
+  "markdown-pdf.format": "A4",                        // oder: A3/A5/Letter …
+  "markdown-pdf.printBackground": true,
+  "markdown-pdf.margin.top": "2.5cm",
+  "markdown-pdf.margin.bottom": "2.5cm",
+  "markdown-pdf.margin.left": "2.5cm",
+  "markdown-pdf.margin.right": "2.5cm",
+  "markdown-pdf.displayHeaderFooter": true,
+  //"markdown-pdf.headerTemplate": "<div style='font-size:9px;margin-left:1cm;'><span class='title'></span></div><div style='font-size:9px;margin-left:auto;margin-right:1cm;'>%%ISO-DATE%%</div>",
+  //"markdown-pdf.footerTemplate": "<div style='font-size:9px;margin:0 auto;'><span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+
+  //Platzhalter:
+  //<span class="date"></span> → aktuelles Datum
+  //<span class="title"></span> → Dokumenttitel (Dateiname)
+  //<span class="url"></span> → Dokumentpfad
+  //<span class="pageNumber"></span> → aktuelle Seite
+  //<span class="totalPages"></span> → Gesamtseiten
+
+  // Kopfzeile anpassen:
+  "markdown-pdf.headerTemplate": "<div style='font-size:8px; width:100%; display:flex; justify-content:space-between; margin:0 1cm; color:rgba(0,0,0,0.5);'><span class='title'><span>Seite <span class='pageNumber'></span> / <span class='totalPages'></span></span></div>",
+
+  // Fußzeile (Beispiel):
+  "markdown-pdf.footerTemplate": "<div style='font-size:8px; margin:0 auto; color:rgba(0,0,0,0.5);'>© 2025 - A. Skotarczak - ionivation.com</div>",
+
+  // --- Optional: Auto-Konvertierung beim Speichern (mit Neustart von VS Code) ---
+  // "markdown-pdf.convertOnSave": true,
+  // "markdown-pdf.convertOnSaveExclude": ["README.md"]
+
+  // --- Optional: eigenes Chrome/Chromium statt gebündeltem Chromium ---
+  // "markdown-pdf.executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+
+}

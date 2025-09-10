@@ -1053,7 +1053,7 @@
 			)
 		)
 		(property "Description" "Hydraulikzylinder doppelt wirkend"
-			(at 0.254 -8.636 0)
+			(at 0.762 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,6 +1118,154 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Zylinder_Doppelt_(M)_Vorfüll"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "-M"
+			(at -4.826 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hydraulikzylinder doppelt wirkend mit Vorfüllanschluss"
+			(at 0.762 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Zylinder_Doppelt_(M)_Vorfüll_0_1"
+			(polyline
+				(pts
+					(xy -0.508 9.906) (xy -2.54 9.906) (xy -2.54 -6.096) (xy 2.54 -6.096) (xy 2.54 9.906) (xy 0.508 9.906)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.096) (xy 0 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 16.002) (xy 0.254 0) (xy 2.286 0) (xy 2.286 -0.762) (xy -2.286 -0.762) (xy -2.286 0)
+					(xy -0.254 0) (xy -0.254 16.002) (xy 0.254 16.002)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Zylinder_Doppelt_(M)_Vorfüll_1_1"
+			(pin passive line
+				(at -6.35 8.89 0)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -5.08 0)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 90)
+				(length 1.016)
+				(name "Vorfüll"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.508 0.508)

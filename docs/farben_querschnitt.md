@@ -1,4 +1,4 @@
-# 📑 Typische Abkürzungen in Schaltplänen
+# 📑 Abkürzungen in Schaltplänen
 
 > (basierend auf DIN 47100 / VDE / IEC)
 
