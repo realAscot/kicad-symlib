@@ -420,12 +420,6 @@
 			(xy 0 0) (xy 10 0) (xy 10 5) (xy 5 5) (xy 5 10) (xy 0 10) (xy 0 0)
 		)
 	)
-	(rect
-		(name "")
-		(start 296.291 -4.5568)
-		(end 6.096 -23.7998 lbcorner)
-		(option page1only)
-	)
 	(polygon
 		(name "poly1:Poly")
 		(pos -4.953 -4.953 ltcorner)

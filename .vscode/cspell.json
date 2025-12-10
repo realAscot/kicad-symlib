@@ -24,6 +24,10 @@
     "dist",
     "build",
     "output",
+<<<<<<< HEAD
+    "zeichnungsblaetter",
+=======
+>>>>>>> work
     ".git"
   ],
   "words": [
@@ -34,6 +38,10 @@
     "AsciiDoc",
     "autochapter",
     "Autorenrechtlich",
+<<<<<<< HEAD
+    "Bipolartransistor",
+=======
+>>>>>>> work
     "Buildchain",
     "Buildversion",
     "clonen",
@@ -45,10 +53,19 @@
     "Funkengefahr",
     "gitcopy",
     "kapitel",
+<<<<<<< HEAD
+    "Leckagen",
+=======
+>>>>>>> work
     "Licence",
     "localfonts",
     "Logfile",
     "makefile",
+<<<<<<< HEAD
+    "Mitarbeiter",
+    "MOSFET",
+=======
+>>>>>>> work
     "Neutralleiter",
     "newpage",
     "okular",
@@ -66,6 +83,10 @@
     "realAscot",
     "Schottky",
     "Skotarczak",
+<<<<<<< HEAD
+    "Spannungsstabilisierende",
+=======
+>>>>>>> work
     "tabularx",
     "texlive",
     "textbf",
@@ -73,8 +94,12 @@
     "tocgen",
     "versionierten",
     "winget",
+<<<<<<< HEAD
+    "Zustimmtaster"
+=======
     "Leckagen",
     "Mitarbeiter",
     "Zustimmtaster",
+>>>>>>> work
   ]
 }
